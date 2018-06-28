@@ -29,9 +29,21 @@ GPIO.setup(ENA,GPIO.OUT);GPIO.setup(ENB,GPIO.OUT)
 |0 |0 |0 |0 |Stop|
 
 ##¿Y qué significa ENA ENB?
-ENA y ENB = Potencia de los motores A y B.
+ENA y ENB es la velocidad de los motores A y B respectivamente.
 
-Luego podemos definir en nuestros programas unas funciones para simplificar código:
+Su valor tiene que ser analógico pero los GPIO son digitales, así que tienen que ser señales PWM ¿que no sabes qué es eso? Pues tendrías que haber hecho nuestro curso Arduino lo dice en el [capítulo 2.4](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/un_caso_especial_seales_pwm.html)
+
+Luego el código que tenemos que poner al principio de nuestro programa es:
+
+```cpp+lineNumbers:true
+PWMA = GPIO.PWM(ENA,500);PWMB = GPIO.PWM(ENB,500)
+PWMA.start(50);PWMB.start(50)
+```
+###Bueno, pero ... ¿Por qué?
+Porque en el AlphaBot están conectados los pines IN1 IN2 IN3 IN4 ENA ENB en los pines de un chip L298P que hace de driver a los motores (nunca conectes un motor a un GPIO de la Raspbery[ ya lo sabes](https://catedu.gitbooks.io/raspberry-muy-basico/content/2-gpio.html))
+![](/assets/2018-06-28 16_07_34-AlphaBot-User-Manual - PDF-XChange Viewer.png)
+##Vale... ¿Y cómo se utiliza?
+Podemos definir en nuestros programas unas funciones para simplificar código:
 
 ```cpp+lineNumbers:true
 def FORDWARD():
