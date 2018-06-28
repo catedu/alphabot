@@ -8,7 +8,7 @@ Vamos a realizar un sencillo programa para romper el hielo, unos movimientos del
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time
-###################TABLA CONEXTIONES RASPBERRY ###########################
+###################TABLA CONEXIONES RASPBERRY ###########################
 IN1=12;IN2=13;ENA=6;IN3=20;IN4=21;ENB=26
 #################################CONFIGURACION GPIO ENTRASDAS SALIDAS ####
 GPIO.setmode(GPIO.BCM);GPIO.setwarnings(False)
