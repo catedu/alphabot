@@ -6,6 +6,15 @@
 
 ![](/assets/apphabot1.png)
 
-Antes de empezar este curso **tienes que leer la primera parte [RASPBERRY MUY BÁSICO](https://catedu.gitbooks.io/raspberry-muy-basico/content/)** donde aprenderás a:
+### Requisitos conocimientos
+* Los expuestos en el [**Curso Python básico**](https://catedu.gitbooks.io/introduccion-a-python/content/). 
+* Los expuestos en [RASPBERRY MUY BÁSICO](https://catedu.gitbooks.io/raspberry-muy-basico/content/)** donde aprenderás a:
 * instalar el sistema operativo
 * comunicarte con la Raspberry
+### Requisitos materiales
+* Wifi
+* Ordenador
+* Alphabot con raspberry
+
+
+
