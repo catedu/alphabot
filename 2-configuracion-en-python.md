@@ -1,4 +1,5 @@
-#Motores
+#Conexión
+
 Evidentemente los sensores, motores, etc... estarán conectados de alguna manera a algún pin de la GPIO (¿qué es eso de GPIO? Pues eso es que no te has leido [esto](https://catedu.gitbooks.io/raspberry-muy-basico/content/2-gpio.html)).
 
 | Interfaces | Puertos GPIO de la Raspberry Pi |
