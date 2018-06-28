@@ -10,7 +10,7 @@ La RASPBERRY igual que el ARDUINO ([ver cap 2.4 curso Arduino](https://catedu.gi
 
 Se realiza primero creando una variable especial PWM con la instrucción:
 
-**p = GPIO.PWM(pin, frecuencia)** donde pin es el número de pin GPIO donde queremos generar la señal PWM de frecuencia dada en Hz
+**p = GPIO.PWM(canal, frecuencia)** donde canal es el número de pin GPIO donde queremos generar la señal PWM de frecuencia dada en Hz
 
 Con esto está creado pero no genera los pulsos, para eso se hace con la instrucción:
 
@@ -19,15 +19,16 @@ Con esto está creado pero no genera los pulsos, para eso se hace con la instruc
 Para parar **p.stop()**
 
 ##Please! ¿Un ejemplo?
-Claro, vamos a ver un ejemplo sencillo que es encender un LED  cada 2 segundos:
+Claro, vamos a ver un ejemplo sencillo que es encender un LED  cada 2 segundos en el GPIO número 12:
 
+```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(12, GPIO.OUT)
+GPIO.setup(12, GPIO.OUT)  #definimos el GPIO12 como salida
 
 p = GPIO.PWM(12, 0.5)
-p.start(1)
-input('Press return to stop:')   # use raw_input for Python 2
-p.stop()
-GPIO.cleanup()
+p.start(50)
+
+```
+
 
