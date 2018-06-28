@@ -1,7 +1,7 @@
 #Motores
-Evidentemente los sensores, motores, etc... estarán conectados en algún pin de la GPIO (¿qué es eso? Pues eso es que no te has leido [esto](https://catedu.gitbooks.io/raspberry-muy-basico/content/2-gpio.html)).
+Evidentemente los sensores, motores, etc... estarán conectados de alguna manera a algún pin de la GPIO (¿qué es eso de GPIO? Pues eso es que no te has leido [esto](https://catedu.gitbooks.io/raspberry-muy-basico/content/2-gpio.html)).
 
-| Interfaces | Pines GPIO de la Raspberry Pi |
+| Interfaces | Puertos GPIO de la Raspberry Pi |
 |------------|--------------|
 |   IN1      | P12          |
 |   IN2      | P13          |
@@ -34,9 +34,9 @@ GPIO.setup(ENA,GPIO.OUT);GPIO.setup(ENB,GPIO.OUT)
 ##¿Y qué significa ENA ENB?
 ENA y ENB es la velocidad de los motores A y B respectivamente.
 
-Su valor tiene que ser analógico pero los GPIO son digitales, así que tienen que ser señales PWM 
+Su valor tiene que ser analógico pero los GPIO son digitales, así que tienen que ser señales PWM.
 
-Si vamos a poner una frecuencia de 500Hz y una velocidad a media potencia, el código que tenemos que poner al principio de nuestro programa es:
+Si vamos a poner una frecuencia de 500Hz y una velocidad media, el código que tenemos que poner al principio de nuestro programa es:
 
 ```cpp+lineNumbers:true
 PWMA = GPIO.PWM(ENA,500);PWMB = GPIO.PWM(ENB,500)
@@ -46,7 +46,7 @@ PWMA.start(50);PWMB.start(50)
 En el AlphaBot están conectados los pines IN1 IN2 IN3 IN4 ENA ENB en los pines de un chip L298P que hace de driver a los motores (nunca conectes un motor a un GPIO de la Raspberry[ ya lo sabes](https://catedu.gitbooks.io/raspberry-muy-basico/content/2-gpio.html))
 ![](/assets/2018-06-28 16_07_34-AlphaBot-User-Manual - PDF-XChange Viewer.png)
 ##Vale... ¿Y cómo se utiliza?
-Podemos definir en nuestros programas unas funciones para simplificar código:
+Podemos definir en nuestros programas unas funciones para simplificar código para utilizar los motores hacia delante, detrás y giros:
 
 ```cpp+lineNumbers:true
 def FORDWARD():
