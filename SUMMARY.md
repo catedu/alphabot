@@ -9,5 +9,6 @@
   * [2.1 GPIO](gpio.md)
   * [2.2 PWM](pwm.md)
   * [2.3 Conexión](2-configuracion-en-python.md)
-  * [2.4 M1 Baile](2-m1-mi-primer-baile.md)
+  * [2.5 M1 Baile](2-m1-mi-primer-baile.md)
+* [2.4 Libreria MOVIMIENTOS.py](24-libreria-movimientospy.md)
 
