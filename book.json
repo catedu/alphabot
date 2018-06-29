@@ -1,0 +1,20 @@
+{
+    "plugins": ["youtube", "accordion", "image-captions", "styled-blockquotes", "localized-footer"],
+    "language": "es",
+    "variables": {
+        "title": "Alphabot",
+        "author": "Javier Quintana Peiro",
+        "collaborators": [
+            { "name": ".", "edited": "" }
+        ]
+    },
+    "pluginsConfig": {
+        "image-captions": {
+            "caption": "Imagen - _CAPTION_"
+        },
+        "localized-footer": {
+            "hline": true,
+            "filename": "./FOOTER.md"
+        }
+    }
+}

@@ -12,4 +12,4 @@
   * [2.4 Libreria MOVIMIENTOS.py](24-libreria-movimientospy.md)
   * [2.5 M1 Baile](2-m1-mi-primer-baile.md)
   * [2.6 M2 Movimientos con tecla](m2-movimientos-con-tecla.md)
-
+* [Créditos](creditos.md)
