@@ -4,7 +4,12 @@ Vamos a realizar un sencillo programa para romper el hielo, unos movimientos del
 
 {% youtube %}https://www.youtube.com/watch?v=WAycuDaKB0Q{% endyoutube%}
 
+
 ##Solución
+* Importamos la librería de MOVIMIENTOS.py [que hemos visto](/24-libreria-movimientospy.md).
+* Vamos llamando a las distintas funciones de movimientos, fijamos la velocidad al 50%, insertando entre ellas un tiempo de retraso de la librería time de 1 segundo.
+
+
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time
