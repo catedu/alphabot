@@ -13,5 +13,6 @@
   * [2.5 M1 Baile](2-m1-mi-primer-baile.md)
   * [2.6 M2 Movimientos con tecla](m2-movimientos-con-tecla.md)
 * [Créditos](creditos.md)
-* 3 Control velocidad
+* [3 Control velocidad](3-control-velocidad.md)
+* [3.1 ¿Cómo funciona?](31-como-funciona.md)
 
