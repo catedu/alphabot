@@ -260,8 +260,10 @@ Atornillamos
 
 ![](/assets/PICT0087.JPG)
 
-Ponemos las ruedas traseras:
+Ponemos las ruedas traseras, las pilas:
 
 ![](/assets/PICT0088.JPG)
+
+Y fin !!
 
 ![](http://www.reparacionxpress.com/images/mireforma6.jpg)
