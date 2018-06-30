@@ -15,4 +15,5 @@
 * [Créditos](creditos.md)
 * [3 Control velocidad](3-control-velocidad.md)
 * [3.1 ¿Cómo funciona?](31-como-funciona.md)
+* [DIY](diy.md)
 
