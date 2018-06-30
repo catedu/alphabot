@@ -6,7 +6,8 @@ Vamos a realizar un sencillo programa para romper el hielo, unos movimientos del
 
 
 ##Solución
-* Importamos la librería de MOVIMIENTOS.py [que hemos visto](/24-libreria-movimientospy.md).
+* Ponemos el fichero MOVIMIENTOS.py [que hemos visto](/24-libreria-movimientospy.md) en la misma carpeta que vamos a crear este programa.
+* En este programa importamos la librería de MOVIMIENTOS.py.
 * Vamos llamando a las distintas funciones de movimientos, fijamos la velocidad al 50%, insertando entre ellas un tiempo de retraso de la librería time de 1 segundo.
 
 

@@ -2,7 +2,7 @@
 
 Para simplificar nuestros programas podemos hacer una librería propia
 
-Esta librería la vamos a llamar MOVIMIENTOS.py y su contenido sería lo visto en las páginas anteriores:
+Esta librería la vamos a llamar **MOVIMIENTOS.py** y su contenido sería lo visto en las páginas anteriores:
 
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
