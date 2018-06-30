@@ -1,6 +1,12 @@
 #M2 Movimientos con teclas
 Ahora vamos a hacer lo mismo, pero gobernado por el teclado:
 
+* PARAR = tecla ESPACIO
+* ADELANTE=FORDWARD = f
+* ATRAS=BACKWARD = b
+* DERECHA=RIGHT = r
+* IZQUIERDA=LEFT = l
+
 {% youtube %}https://www.youtube.com/watch?v=fb6w5yQB_AM&feature=youtu.be{% endyoutube%}
 
 ###Solución
