@@ -1,4 +1,5 @@
 # ROBOTICA CON RASPBERRY y Python
+
 # ... y ALPHABOT
 
 * El objetivo de este curso es proporcionar el lado robótico de Python programando en la misma Raspberry.
@@ -7,11 +8,12 @@
 ![](/assets/apphabot1.png)
 
 ### Requisitos conocimientos
+
 * Los expuestos en el [**Curso Python básico**](https://catedu.gitbooks.io/introduccion-a-python/content/). 
-* Los expuestos en **[RASPBERRY MUY BÁSICO](https://catedu.gitbooks.io/raspberry-muy-basico/content/)** donde aprenderás a:
+* Los expuestos en [**RASPBERRY MUY BÁSICO**](https://catedu.gitbooks.io/raspberry-muy-basico/content/) donde aprenderás a:
 * instalar el sistema operativo
 * comunicarte con la Raspberry
-### Requisitos materiales
+  ### Requisitos materiales
 * Wifi
 * Ordenador
 * Alphabot con raspberry
