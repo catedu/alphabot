@@ -1,6 +1,6 @@
 #DIY Do It Yourself
 
-Este robot es delicado y difícil de montar, intentamos  con este manual ayudarte si te convence utilizarlo en clase pero nosotros no somos comerciales de este robot, o sea, esto mejor que no:
+Este robot es delicado y difícil de montar, intentamos  con este manual ayudarte a montarlo si te convence comprarlo pero nosotros no somos comerciales de este robot. O sea, ésto mejor que no:
 
 ![](/assets/2018-06-30 07_45_40-Documento1 - Microsoft Word.png)
 
@@ -11,11 +11,11 @@ _Nomenclatura:_
 ##El Paquete de piezas
 Encontramos todas estas piezas, destacamos:
 * Placa de raspberry con microSD, pincho adaptador y fuente de alimentación (no fotografiado)
-* Tornillería abundante algunos son minúsculos.
+* Tornillería abundante algunos tornillos son minúsculos.
 
 ![](/assets/PICT0025.JPG)
 
-Vamos a por ello:
+Vamos a por ello (Advertencia: empieza si tienes tiempo por delante):
 
 ![](/assets/ikea-noche.png)
 
@@ -89,6 +89,8 @@ Atornillamos en la parte delantera en los agujeros extremos :
 Conectamos
 
 ![](/assets/PICT0043.JPG)
+
+Y por abajo también:
 
 ![](/assets/PICT0044.JPG)
 
@@ -188,7 +190,7 @@ Esto no sé si está en los libros de ingeniería !!
 
 ![](/assets/PICT0070.JPG)
 
-Aún así hay que rebajar un poco más en los lados para que entre bien el brazo del servo blanco, puedes ver en la foto como con el cuchillo se ha rebajado un poco más a los lados para que la pieza blance esté lo más prieta a la negra:.
+Aún así hay que rebajar un poco más en los lados para que entre bien el brazo del servo blanco, puedes ver en la foto como con el cuchillo se ha rebajado un poco más a los lados para que la pieza blanca esté lo más prieta a la negra:.
 
 ![](/assets/PICT0072.JPG)
 
@@ -228,7 +230,7 @@ Ahora utilizaremos los tornillos más largos con tuerca que lo utilizaremos de a
 
 ![](/assets/PICT0080.JPG)
 
-**CHAPUZA4**: ¿Por qué utilizar la arandela de plástico? porque si no se utiliza, las tuercas hacer cortocircuitos con la placa, luego necesitamos levantar un poco la plataforma de la placa:
+**CHAPUZA4**: ¿Por qué utilizar la arandela de plástico? porque si no se utiliza, las tuercas hacen cortocircuitos con las soldaduras de la placa, luego necesitamos levantar un poco la plataforma del brazo robótico de la placa:
 
 ![](/assets/PICT0081.JPG)
 
