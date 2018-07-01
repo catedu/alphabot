@@ -10,12 +10,17 @@
   * [2.1 GPIO](gpio.md)
   * [2.2 PWM](pwm.md)
   * [2.3 Conexión](2-configuracion-en-python.md)
-  * [2.4 Libreria MOVIMIENTOS.py](24-libreria-movimientospy.md)
-  * [2.5 M1 Baile](2-m1-mi-primer-baile.md)
-  * [2.6 M2 Movimientos con tecla](m2-movimientos-con-tecla.md)
+  * [2.4 Fichero VARIABLES.py](24-fichero-variablespy.md)
+  * [2.5 Libreria MOVIMIENTOS.py](24-libreria-movimientospy.md)
+  * [2.6 M1 Baile](2-m1-mi-primer-baile.md)
+  * [2.7 M2 Movimientos con tecla](m2-movimientos-con-tecla.md)
 * [3 Control velocidad](3-control-velocidad.md)
   * [3.1 ¿Cómo funciona?](31-como-funciona.md)
+  * [3.2 M1 Test](32-m1-test.md)
+
+
+
 * [Créditos](creditos.md)
-* [3.2 M1 Test](32-m1-test.md)
-* [2.4 Fichero VARIABLES.py](24-fichero-variablespy.md)
+
+
 
