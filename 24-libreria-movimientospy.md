@@ -1,6 +1,6 @@
 #Librería MOVIMIENTOS.py
 
-Para simplificar nuestros programas podemos hacer una librería propia
+Para simplificar nuestros programas podemos hacer una librería propia.
 
 Esta librería la vamos a llamar **MOVIMIENTOS.py** y su contenido sería lo visto en las páginas anteriores:
 
