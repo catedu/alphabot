@@ -14,24 +14,29 @@ Necesitamos una librería GPIO que Raspbian lo tiene por defecto, pero por si ac
 >sudo apt-get install pyton-rpi.gpio
 
 Normalmente te dirá que las tienes instaladas en su última versión.
+Para utlizar la librería, simplemente tenemos que poner esta instrucción:
+**import RPi.GPIO as GPIO**
 
-##GPIO.setmode
+##GPIO.setmode y GPI.setup
 Hay dos formas de utilizar la numeración de las GPIO, respetando la misma numeración que los pines de la placa, entonces la instrucción que tenemos que poner en nuestros programas es:
 **GPIO.setmode(GPIO.BOARD)**
 o utilización de la numeración BCM:
 **GPIO.setmode(GPIO.BCM)**
-nosotros elegiremos esta última por ser más sencilla, aunque tiene la desventaja de que si cambian en el futuro la numeraciones en los
+nosotros elegiremos esta última por ser más sencilla, aunque tiene la desventaja de que si cambian en el futuro la numeraciones en los BCM nuestro programa no servirá.
+
+Una vez definido qué numeración usamos, tenemos que especificar en nuestro programa si tal GPIO es entrada o salida, por ejemplo la siguiente instrucción define el GPIO número 4 como entrada (7 en numeración BOARD):
+**GPIO.setup(4, GPIO.IN)**
 
 
 ##Ejemplo de utilización de la librería RPI.GPIO
 
-El siguiente ejemplo enciende un LED puesto en el GPIO 4 (pin 7) durante 2 segundos
+El siguiente ejemplo enciende un LED puesto en el GPIO 4, durante 2 segundos
 
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(4, GPIO.OUT) ## GPIO 7 como salida
+GPIO.setup(4, GPIO.OUT) ## GPIO 4 como salida
 GPIO.output(4,True) ##encendemos
 time.sleep(2)        ## espera 2 segundos
 GPIO.output(4,False)  ##APAGAMOS
