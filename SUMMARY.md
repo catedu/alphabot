@@ -17,4 +17,5 @@
   * [3.1 ¿Cómo funciona?](31-como-funciona.md)
 * [Créditos](creditos.md)
 * [3.2 M1 Test](32-m1-test.md)
+* [2.4 Fichero VARIABLES.py](24-fichero-variablespy.md)
 
