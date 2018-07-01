@@ -2,7 +2,7 @@
 
 ##GPIO
 Vamos a recordar lo que vimos [aquí](https://catedu.gitbooks.io/raspberry-muy-basico/content/2-gpio.html), dos cosas: 
-* Estos son los pines GPIO 
+* Estos son los pines GPIO con la numeración BCM:
 
 ![](https://docs.microsoft.com/en-us/windows/iot-core/media/pinmappingsrpi/rp2_pinout.png)
 
@@ -10,9 +10,18 @@ Vamos a recordar lo que vimos [aquí](https://catedu.gitbooks.io/raspberry-muy-b
 
 ##Librería RPI.GPIO
 Necesitamos una librería GPIO que Raspbian lo tiene por defecto, pero por si acaso ejecuta estas instrucciones:
-_sudo apt-get install python-dev
-sudo apt-get install pyton-rpi.gpio_
+>sudo apt-get install python-dev
+>sudo apt-get install pyton-rpi.gpio
+
 Normalmente te dirá que las tienes instaladas en su última versión.
+
+##GPIO.setmode
+Hay dos formas de utilizar la numeración de las GPIO, respetando la misma numeración que los pines de la placa, entonces la instrucción que tenemos que poner en nuestros programas es:
+**GPIO.setmode(GPIO.BOARD)**
+o utilización de la numeración BCM:
+**GPIO.setmode(GPIO.BCM)**
+nosotros elegiremos esta última por ser más sencilla, aunque tiene la desventaja de que si cambian en el futuro la numeraciones en los
+
 
 ##Ejemplo de utilización de la librería RPI.GPIO
 

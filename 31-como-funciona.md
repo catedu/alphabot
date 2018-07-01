@@ -14,3 +14,5 @@ Si te fijas en el esquema anterior, las resistencias, est√°n con la configuraci√
 
 ![](/assets/sensorvelocidadOFF.jpg)
 ![](/assets/sensorvelocidadON.jpg)
+
+
