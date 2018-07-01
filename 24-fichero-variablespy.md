@@ -6,5 +6,6 @@ Cuando queramos incorporar estas variables pondremos esta instrucciónde Python 
 
 {% include "https://github.com/JavierQuintana/AlphabotPython/blob/master/VARIABLES.py" %}
 
+<hr />
 
 <iframe src="https://github.com/JavierQuintana/AlphabotPython/blob/master/VARIABLES.py" width="800" height="800" align="center">
