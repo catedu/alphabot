@@ -3,9 +3,6 @@
 Añadimos ahora las varialbes de paso siguientes a este fichero
 
 [VARIABLES.py](https://github.com/JavierQuintana/AlphabotPython/blob/master/VARIABLES.py)
-<hr />
-<iframe src="https://github.com/JavierQuintana/AlphabotPython/blob/master/VARIABLES.py" width="800" height="800" align="center">
-<hr />
 
 import RPi.GPIO as GPIO
 
