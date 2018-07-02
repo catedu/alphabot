@@ -2,7 +2,7 @@
 
 Para simplificar nuestros programas podemos hacer una librería propia.
 
-Esta librería la vamos a llamar **MOVIMIENTOS.py** y su contenido sería lo visto en las páginas anteriores, añadiendo las variables definidas en **VARIABLES.py**:
+Esta librería la vamos a llamar **[MOVIMIENTOS.py](https://github.com/JavierQuintana/AlphabotPython/)** y su contenido sería lo visto en las páginas anteriores, añadiendo las variables definidas en **VARIABLES.py**:
 
 ```cpp+lineNumbers:true
 port RPi.GPIO as GPIO

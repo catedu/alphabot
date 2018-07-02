@@ -18,7 +18,8 @@
   * [3.1 ¿Cómo funciona?](31-como-funciona.md)
   * [3.2 M1 Test](32-m1-test.md)
 * [3.3 Variables.py](33-variablespy.md)
-* 3.4 MOVIMIENTOSPASO.py
+* [3.4 MOVIMIENTOSPASO.py](34-movimientospasopy.md)
+* [3.5 M2 Movimientos con paso](35-m2-movimientos-con-paso.md)
 
 ---
 
