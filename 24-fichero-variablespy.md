@@ -4,8 +4,6 @@ Debido a que vamos a utilizar varias variables que serán comunes a varias libre
 
 Cuando queramos incorporar estas variables pondremos esta instrucciónde Python **from VARIABLES import **
 
-{% include "https://github.com/JavierQuintana/AlphabotPython/blob/master/VARIABLES.py" %}
-
 <hr />
 
 <iframe src="https://github.com/JavierQuintana/AlphabotPython/blob/master/VARIABLES.py" width="800" height="800" align="center">
