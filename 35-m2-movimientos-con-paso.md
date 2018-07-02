@@ -52,5 +52,6 @@ while tecla!=' ':
         print ('\nFin, has apretado STOP')
         MOVIMIENTOS.STOP()
 ```
+%/accordion%
 
 
