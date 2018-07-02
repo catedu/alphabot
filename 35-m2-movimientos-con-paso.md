@@ -15,7 +15,7 @@ Fijaremos de antemano las velocidades y el paso a 50 y 10 por ejemplo.
 * Todo dentro de un bucle de manera que si pulsamos la tecla espacio sale del buble no sin antes parar el robot.
 %accordion%Solución%accordion%
 
-Fichero [M2-Movimientos-Teclas.py](/Movimientos-tecla)
+Fichero [M2-Movimientos-Teclas.py](https://github.com/JavierQuintana/AlphabotPython/)
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time
