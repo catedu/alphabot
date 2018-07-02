@@ -6,8 +6,7 @@ Cuando queramos incorporar estas variables pondremos esta instrucciónde Python 
 
 [VARIABLES.py](https://github.com/JavierQuintana/AlphabotPython/)
 <hr />
-<iframe src="https://github.com/JavierQuintana/AlphabotPython/blob/master/VARIABLES.py" width="800" height="800" align="center">
-<hr />
+
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 
