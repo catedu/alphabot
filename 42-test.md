@@ -1,5 +1,7 @@
 #Test sensor obstáculos infrarrojos
-Ejecutamos este pequeño programa
+Ejecutamos este pequeño programa:
+
+```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time
 
@@ -14,3 +16,7 @@ GPIO.setup(DL,GPIO.IN)
 for i in range(10000):
      print('\nSensor derecha :',GPIO.input(DR))
      print('\nSensor izquier :',GPIO.input(DL))
+```
+
+Y podemos ver en el vídeo que emite un 0 cuando detecta un obstáculo:
+{% youtube %}https://www.youtube.com/watch?v=oehMTYNSPHA&feature=youtu.be{% endyoutube %}
