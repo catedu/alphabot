@@ -25,6 +25,8 @@
   * [4.2 Test](42-test.md)
   * [4.4 Roomba](4-sensor-obstaculos-ir/43-roomba.md)
   * [4.3 Variables.py](4-sensor-obstaculos-ir/43-variablespy.md)
+* [5 Control remoto](5-control-remoto.md)
+  * [5.1 NEC](5-control-remoto/51-como-funciona.md)
 
 ---
 
