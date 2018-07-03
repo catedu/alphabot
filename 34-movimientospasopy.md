@@ -14,50 +14,37 @@ Fichero [MOVIMIENTOSPASO.py](https://github.com/JavierQuintana/AlphabotPython/)
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time
+
 import MOVIMIENTOS
-from VARIABLES import *
+import MOVIMIENTOSPASO
 
+velR=30
+numR=10
+velL=30
+numL=10
 
-############################
-####FUNCIóN AMBOS###########
-############################
-def BOTH(velR,numR,velL,numL):
-    if (numR>0):
-        GPIO.output(IN1,GPIO.HIGH)
-        GPIO.output(IN2,GPIO.LOW)
+print ('TECLAS ¡en minúscula!:\nPARAR = tecla 5\nADELANTE=FORDWARD = 8\nATRAS=BACKWARD = 2\nDERECHA=RIGHT = 4\nIZQUIERDA=LEFT = 6')
+tecla='x' 
+while tecla!='5':
+    tecla = input('\nPresiona una tecla y después enter : ')
+    if tecla != '5':
+        print ('\nHas presionado ', tecla)
+        if tecla=='8':
+            print ('\nadelante')
+            MOVIMIENTOSPASO.BOTH(velR,numR,velL,numL)
+        if tecla=='2':
+            print ('\natrás')
+            MOVIMIENTOSPASO.BOTH(velR,-numR,velL,-numL)
+        if tecla=='6':
+            print ('\nderecha')
+            MOVIMIENTOSPASO.BOTH(velR,-numR,velL,numL)
+        if tecla=='4':
+            print ('\nizquierda')
+            MOVIMIENTOSPASO.BOTH(velR,numR,velL,-numL)
+
     else:
-        numR=-numR
-        GPIO.output(IN1,GPIO.LOW)
-        GPIO.output(IN2,GPIO.HIGH)
-    if (numL>0):
-         GPIO.output(IN4,GPIO.HIGH)
-         GPIO.output(IN3,GPIO.LOW)
-    else:
-        numL=-numL
-        GPIO.output(IN4,GPIO.LOW)
-        GPIO.output(IN3,GPIO.HIGH)
-    contadorR=0
-    contadorL=0
-    while ((contadorR<numR)or(contadorL<numL)):
-        if (contadorR<numR):
-            PWMA.start(velR)
-        else:
-            GPIO.output(IN1,GPIO.LOW)
-            GPIO.output(IN2,GPIO.LOW)
-        if (contadorL<numL):
-            PWMB.start(velL)
-        else:
-            GPIO.output(IN3,GPIO.LOW)
-            GPIO.output(IN4,GPIO.LOW)
-        if(GPIO.input(DataMotorR)==1):
-            if(GPIO.input(DataMotorR)==0):
-                contadorR=contadorR+1
-                print ('contador derecha = ',contadorR)
-        if(GPIO.input(DataMotorL)==1):
-            if(GPIO.input(DataMotorL)==0):
-                contadorL=contadorL+1
-                print ('contador izquierda = ',contadorL)        
-    MOVIMIENTOS.STOP()
+        print ('\nFin, has apretado STOP')
+        MOVIMIENTOS.STOP()
 #############################################
 ```
 

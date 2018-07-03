@@ -1,12 +1,12 @@
 #Movimientos con paso y teclas
 
-Vamos a hacer un programa para utilizar la librería anterior MOVIMIENTOSPASO.py y gobernado por el teclado:
+Vamos a hacer un programa para utilizar la librería anterior MOVIMIENTOSPASO.py y gobernado por el teclado *numérico*:
 
-* PARAR = tecla ESPACIO
-* ADELANTE=FORDWARD = f
-* ATRAS=BACKWARD = b
-* DERECHA=RIGHT = r
-* IZQUIERDA=LEFT = l
+* PARAR = tecla 5
+* ADELANTE=FORDWARD = 8
+* ATRAS=BACKWARD = 2
+* DERECHA=RIGHT = 6
+* IZQUIERDA=LEFT = 4
 
 Fijaremos de antemano las velocidades y el paso a 50 y 10 por ejemplo.
 ####Solución
