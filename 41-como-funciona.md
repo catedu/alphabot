@@ -14,4 +14,9 @@ Tiene un led de infrarrojos que cuando hay un obstáculo delante del sensor, ref
 
 ![](/assets/sensorIRObstaculos3.png)
 
+La salida DOUT de cada LM393 están conectados a los siguientes puertos GPIO:
+
+* Derecha GPIO 16
+* Izquierda GPIO 19
+
 Una vez más vemos que la resistencias del sensor están tipo PULL-UP luego cuando detecta emitirá un 0 lógico y cuando no detecta emitirá un 1 lógico.
