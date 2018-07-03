@@ -19,4 +19,5 @@ for i in range(10000):
 ```
 
 Y podemos ver en el vídeo que emite un 0 cuando detecta un obstáculo:
+
 {% youtube %}https://www.youtube.com/watch?v=oehMTYNSPHA&feature=youtu.be{% endyoutube %}
