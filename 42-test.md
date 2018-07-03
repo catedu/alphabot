@@ -1,4 +1,4 @@
-#Test sensor obstáculos infrarrojos
+if #Test sensor obstáculos infrarrojos
 Ejecutamos este pequeño programa:
 
 ```cpp+lineNumbers:true
