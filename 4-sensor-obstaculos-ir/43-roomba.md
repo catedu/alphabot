@@ -12,6 +12,7 @@ La solución no es única, una propuesta es hacerlo con las librerías que hemos
 * También incorporamos las variables definidas en **VARIABLES.py**
 * Si no detecta nada, que sigua hacia delante.
 * Si detecta algo, según los dos o uno, que de unos pasos atrás y que gire.
+
 %accordion%Solución%accordion%
 
 Fichero [Roomba.py](https://github.com/JavierQuintana/AlphabotPython/)
