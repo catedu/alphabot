@@ -2,7 +2,7 @@
 
 En el siguiente vídeo vemos como cuando el sensor está encendido, el programa detecta un 0 y si el sensor está apagado, el programa detecta un 1:
 
-{% youtube %}https://www.youtube.com/watch?v=fb6w5yQB_AM&feature=youtu.be{% endyoutube%}
+{% youtube %}https://www.youtube.com/watch?v=anWM7Y54u98&feature=youtu.be{% endyoutube%}
 
 
 El programa es el siguiente:
@@ -25,7 +25,7 @@ for i in range(100000):
 ## Segundo test de contador
 En el segundo vídeo vídeo vemos como un simple contador puede detectar el paso del 1 al 0:
 
-{% youtube %}https://www.youtube.com/watch?v=fb6w5yQB_AM&feature=youtu.be{% endyoutube%}
+{% youtube %}https://www.youtube.com/watch?v=Xm1aZvEp9fE&feature=youtu.be{% endyoutube%}
 
 
 El programa es el siguiente:

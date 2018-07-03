@@ -9,6 +9,8 @@ Vamos a hacer un programa para utilizar la librería anterior MOVIMIENTOSPASO.py
 * IZQUIERDA=LEFT = 4
 
 Fijaremos de antemano las velocidades y el paso a 50 y 10 por ejemplo.
+
+{% youtube %}https://www.youtube.com/watch?v=n0tOHIHl0Rs&feature=youtu.be{% endyoutube %}
 ####Solución
 * Ponemos las librerías fichero [MOVIMIENTOS.py](/24-libreria-movimientospy.md) y [MOVIMIENTOSPASO.py](/34-movimientospasopy.md) en la misma carpeta que vamos a crear este programa y las incorporamos en el programa con **import**.
 * Vamos llamando a las distintas funciones de movimientos según la tecla pulsada, fijamos la velocidad al 50%, por pantalla va saliendo el estado de los contadores.
