@@ -22,6 +22,7 @@
   * [3.5 M2 Movimientos con paso](35-m2-movimientos-con-paso.md)
 * [4 Sensor obstáculos IR](4-sensor-obstaculos-ir.md)
 * [4.1 ¿Cómo funciona?](41-como-funciona.md)
+* [4.2 Test](42-test.md)
 
 ---
 
