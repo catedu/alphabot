@@ -30,6 +30,7 @@
 * [5.2 Libreria NEC.py](52-libreria-necpy.md)
 * [M2 Control remoto](m2-control-remoto.md)
 * [VARIABLES.py](variablespy.md)
+* [5.3 M1 Test Control Remoto IR](53-m1-test-control-remoto-ir.md)
 
 ---
 
