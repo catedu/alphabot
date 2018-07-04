@@ -16,7 +16,7 @@ Encontramos algunas, por ejemplo:
 
 ![](/assets/wikialphabot.png)
 
-* **Las pilas son especiales** tipo 18650 no son las "_normales AA o AAA_" pero proporcionan 3.7V y más de 1.000mAh cada una lo que asegura la alimentación del robot+raspberry de forma autónoma. Se pueden encontrar en tiendas online por 10€ con cargador incluido. (ojo,hay dos versiones, la de 65mm).
+* **Las pilas son especiales** tipo 18650 no son las "_normales AA o AAA_" pero proporcionan 3.7V y más de 1.000mAh cada una lo que asegura la alimentación del robot+raspberry de forma autónoma. Se pueden encontrar en tiendas online por 10€ con cargador incluido. (ojo,hay dos versiones, elegir la de 65mm).
 
 ![](/assets/pila.png)
 

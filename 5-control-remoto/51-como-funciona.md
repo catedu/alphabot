@@ -9,6 +9,6 @@ Alphabot tiene un receptor LFN0038K compatible con el protocolo estandard NEC y 
  
  ![](/assets/necprotocolo2.jpg)
  
- Cada comando se envía una sola vez al menos que mantengas el botón pulsado más de 110ms. El formato de dublicación es según este dibujo:
+ Cada comando se envía una sola vez al menos que mantengas el botón pulsado más de 110ms. El formato de duplicación es según este dibujo:
  
  ![](/assets/necprotocolo3.png)
