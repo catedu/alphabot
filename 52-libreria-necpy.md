@@ -1,7 +1,7 @@
 #VARIABLES.py
-Añadimos en el fichero variables.py las siguientes variables:
+El sensor IR está unido al GPIO número 18 luego añadimos en el fichero variables.py las siguientes líneas:
 >IR = 18
->PWM = 50
+
 >GPIO.setup(IR,GPIO.IN,GPIO.PUD_UP)
 
 lo de PUD_UP es porque su configuración es en PULL-UP
