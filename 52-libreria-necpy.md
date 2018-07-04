@@ -1,6 +1,7 @@
 #LIBRERIA NEC.py
 
 ```cpp+lineNumbers:true
+
 import RPi.GPIO as GPIO
 from VARIABLES import *
 
