@@ -1,4 +1,14 @@
+#VARIABLES.py
+Añadimos en el fichero variables.py las siguientes variables:
+>IR = 18
+>PWM = 50
+>GPIO.setup(IR,GPIO.IN,GPIO.PUD_UP)
+
+lo de PUD_UP es porque su configuración es en PULL-UP
+
 #LIBRERIA NEC.py
+
+Creamos este fichero que lo ponemos en la misma carpeta que nuestros ejercicios, el código es complejo y lo hemos sacado del código demo de la página https://www.waveshare.com/wiki/AlphaBot :
 
 ```cpp+lineNumbers:true
 

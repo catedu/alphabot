@@ -12,7 +12,18 @@ gobernado por el teclado *numérico*:
 * DERECHA=RIGHT = 6
 * IZQUIERDA=LEFT = 4
 
+{% youtube %}https://www.youtube.com/watch?v=PfoVh2BTlLY&feature=youtu.be{% endyoutube %}
 
+####Solución
+La solución es fácil con las librerías que hemos aprendido:
+* Ponemos las librerías fichero [MOVIMIENTOS.py](/24-libreria-movimientospy.md) y ahora esta nueva [NEC.py](/5-control-remoto/51-como-funciona.md) en la misma carpeta que vamos a crear este programa y las incorporamos en el programa con **import**.
+* También incorporamos las variables definidas en **VARIABLES.py**
+* Utilizaremos los códigos que hemos optenido en [M1 Test Control Remoto IR.](/53-m1-test-control-remoto-ir.md)
+* Un bucle, si no detecta la tecla 5 que haga los movimientos según las teclas del mando IR.
+
+%accordion%Solución%accordion%
+
+Fichero [M2-Control-Remoto-IR.py](https://github.com/JavierQuintana/AlphabotPython/)
 
 ```cpp+lineNumbers:true
 
@@ -22,7 +33,6 @@ import time
 from VARIABLES import *
 
 import MOVIMIENTOS
-import MOVIMIENTOSPASO
 import NEC
 
 vel=50
@@ -47,8 +57,7 @@ while key!=28:
             MOVIMIENTOS.LEFT(vel)
         if key==28:
             print ('\nFin, has apretado STOP')
-            MOVIMIENTOS.STOP()
-    
-        
+            MOVIMIENTOS.STOP()    
 
 ```
+%/accordion%
