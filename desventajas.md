@@ -3,8 +3,10 @@ Encontramos algunas, por ejemplo:
 
 * **Fallos en el diseño:**
     * Del brazo de robot, el pie no se ajusta bien a la placa y tampoco a la cámara web (en las fotos las flechas amarillas) Ver Chapuzas nº 1, 2 y 3 de [DIY](/diy.md).
-    * El acceso a la tarjeta microSD es difícil, la única manera es utilizando unas pinzas de depilar. (ver foto)
-    * No se puede acceder a la alimentación por USB luego nos tenemos que conformar con alimentar todo el tiempo el robot con las pilas, menos mal que tienen mucha capacidad.
+    * El acceso a la tarjeta microSD es difícil, una manera es utilizando unas pinzas de depilar (ver foto) o desmontando la tapa inferior.
+    * No se puede acceder a la alimentación por USB con la tapa inferior luego tenemos dos opciones:
+        * Alimentar Alphabot con las pilas. (única opción cuando está en movimiento).
+        * Desmontar la tapa inferior y alimentarlo por USB. Si elegimos esta opción hay que dejar las ruedas en alto para que los motores trabajen en vacío.
 
 ![](/assets/IMG_20180628_090440692.jpg)
 ![](/assets/IMG_20180628_090521449.jpg)
