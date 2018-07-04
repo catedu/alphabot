@@ -1,5 +1,19 @@
 #M2 CONTROL REMOTO
 
+¿Qué esperas? te lo pide el cuerpo !!! vamos a hacer un control remoto del robot !!
+
+Vamos a definir las siguientes teclas
+
+gobernado por el teclado *numérico*:
+
+* PARAR = tecla 5
+* ADELANTE=FORDWARD = 8
+* ATRAS=BACKWARD = 2
+* DERECHA=RIGHT = 6
+* IZQUIERDA=LEFT = 4
+
+
+
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time

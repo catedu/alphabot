@@ -31,22 +31,22 @@ velL=50
 
 numL=10
 
-print ('TECLAS ¡en minúscula!:\nPARAR = tecla ESPACIO\nADELANTE=FORDWARD = f\nATRAS=BACKWARD = b\nDERECHA=RIGHT = r\nIZQUIERDA=LEFT = l')
+print ('TECLAS ¡en minúscula!:\nPARAR = tecla 5\nADELANTE=FORDWARD = 8\nATRAS=BACKWARD = 2\nDERECHA=RIGHT = 6\nIZQUIERDA=LEFT = 4')
 tecla='x' 
-while tecla!=' ':
+while tecla!='5':
     tecla = input('\nPresiona una tecla y después enter : ')
-    if tecla != ' ':
+    if tecla != '5':
         print ('\nHas presionado ', tecla)
-        if tecla=='f':
+        if tecla=='8':
             print ('\nadelante')
             MOVIMIENTOSPASO.BOTH(velR,numR,velL,numL)
-        if tecla=='b':
+        if tecla=='2':
             print ('\natrás')
             MOVIMIENTOSPASO.BOTH(velR,-numR,velL,-numL)
-        if tecla=='r':
+        if tecla=='6':
             print ('\nderecha')
             MOVIMIENTOSPASO.BOTH(velR,-numR,velL,numL)
-        if tecla=='l':
+        if tecla=='4':
             print ('\nizquierda')
             MOVIMIENTOSPASO.BOTH(velR,numR,velL,-numL)
 
