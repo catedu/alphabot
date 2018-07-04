@@ -23,13 +23,14 @@
 * [4 Sensor obstáculos IR](4-sensor-obstaculos-ir.md)
   * [4.1 ¿Cómo funciona?](41-como-funciona.md)
   * [4.2 Test](42-test.md)
-  * [4.4 Roomba](4-sensor-obstaculos-ir/43-roomba.md)
   * [4.3 Variables.py](4-sensor-obstaculos-ir/43-variablespy.md)
+  * [4.4 Roomba](4-sensor-obstaculos-ir/43-roomba.md)
 * [5 Control remoto](5-control-remoto.md)
   * [5.1 NEC](5-control-remoto/51-como-funciona.md)
-* [5.2 VARIABLES.py y NEC.py](52-libreria-necpy.md)
-* [M2 Control remoto](m2-control-remoto.md)
-* [5.3 M1 Test Control Remoto IR](53-m1-test-control-remoto-ir.md)
+  * [5.2 VARIABLES.py y NEC.py](52-libreria-necpy.md)
+  * [5.3 M1 Test Control Remoto IR](53-m1-test-control-remoto-ir.md)
+  * [5.4 M2 Control remoto](m2-control-remoto.md)
+
 
 ---
 
