@@ -6,7 +6,7 @@ Elegimos este robot como la opción más correcta para dar a la Raspberry la mov
 * Kit coche con motores
 * Sensores de IR de proximidad
 * Sensores de paso en los motores
-* UART por IR
+* Control remoto por IR
 
 ![](/assets/apphabot1.png)
 
