@@ -29,6 +29,7 @@
   * [5.1 NEC](5-control-remoto/51-como-funciona.md)
 * [5.2 Libreria NEC.py](52-libreria-necpy.md)
 * [M2 Control remoto](m2-control-remoto.md)
+* [VARIABLES.py](variablespy.md)
 
 ---
 
