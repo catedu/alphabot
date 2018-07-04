@@ -15,40 +15,40 @@ gobernado por el teclado *numérico*:
 
 
 ```cpp+lineNumbers:true
+
 import RPi.GPIO as GPIO
 import time
+
 from VARIABLES import *
+
 import MOVIMIENTOS
 import MOVIMIENTOSPASO
 import NEC
 
-#key=''
+vel=50
 
-while True:
-		key = NEC.getkey()
-		if(key != None):
-			if key == "repeat":
-				n = 0				 
-			if key == 0x18:
-				MOVIMIENTOS.FORDWARD(50)
-				print("forward")
-			if key == 0x08:
-				MOVIMIENTOS.LEFT(50)
-				print("left")
-			if key == 0x1c:
-				MOVIMIENTOS.STOP()
-				print("stop")
-			if key == 0x5a:
-				MOVIMIENTOS.RIGHT(50)
-				print("right")
-			if key == 0x52:
-				MOVIMIENTOS.BACKWARD(50)		
-				print("backward")
+print ('TECLAS :\nPARAR = tecla 5\nADELANTE=FORDWARD = 2\nATRAS=BACKWARD = 8\nDERECHA=RIGHT = 6\nIZQUIERDA=LEFT = 4')
 
-		else:
-			n += 1
-			if n > 20000:
-				n = 0
-				MOVIMIENTOS.STOP()
-				
+key=0
+while key!=28:
+    key=NEC.getkey()
+    if (key != None):
+        if key==24:
+            print ('\nadelante')
+            MOVIMIENTOS.FORDWARD(vel)
+        if key==82:
+            print ('\natrás')
+            MOVIMIENTOS.BACKWARD(vel)
+        if key==90:
+            print ('\nderecha')
+            MOVIMIENTOS.RIGHT(vel)
+        if key==8:
+            print ('\nizquierda')
+            MOVIMIENTOS.LEFT(vel)
+        if key==28:
+            print ('\nFin, has apretado STOP')
+            MOVIMIENTOS.STOP()
+    
+        
+
 ```
