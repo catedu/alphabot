@@ -8,7 +8,7 @@ lo de PUD_UP es porque su configuración es en PULL-UP
 
 #LIBRERIA NEC.py
 
-Creamos este fichero que lo ponemos en la misma carpeta que nuestros ejercicios, el código es complejo y lo hemos sacado del código demo de la página https://www.waveshare.com/wiki/AlphaBot :
+Creamos este fichero que lo ponemos en la misma carpeta que nuestros ejercicios, el código es complejo, sigue los pasos explicados en el [protocolo NEC](/5-control-remoto/51-como-funciona.md) y lo hemos sacado del código demo de la página https://www.waveshare.com/wiki/AlphaBot :
 
 ```cpp+lineNumbers:true
 
