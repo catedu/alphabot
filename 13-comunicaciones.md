@@ -6,12 +6,14 @@
 1. Luego tienes que comunicarte en este curso VIA GRÁFICAMENTE por VNC lo tienes explicado en [el capítulo 8](https://catedu.gitbooks.io/raspberry-muy-basico/content/8-vnc.html).
 
 ##Cómo ejecuto un programa
-Vía [VNC de forma gráfica](https://catedu.gitbooks.io/raspberry-muy-basico/content/8-vnc.html), creas un fichero con extensión .py le das dos cliks y ya está !! (pues Raspbian tiene Python de forma nativa) esta será la forma de trabajar en este curso.
+Vía [VNC de forma gráfica](https://catedu.gitbooks.io/raspberry-muy-basico/content/8-vnc.html), creas un fichero con extensión .py le das dos cliks y ya está !! Se abre el editor de Python para que escribas tus programas. (pues Raspbian tiene Python de forma nativa). Se ejecuta con el botón Play (redondo verde de la figura) y se para con el rojo. Esta será la forma de trabajar en este curso.
 
+![](/assets/play)
 
 UNA VEZ REALIZADO ESTOS PASOS YA PODEMOS PASAR A REALIZAR NUESTRO PRIMER PROGRAMA.
 
->Nota: También se puede hacer de forma textual con el [protocolo SSH](https://catedu.gitbooks.io/raspberry-muy-basico/content/5-ssh.html) ejecutando la orden  python por ejemplo: Tenemos un programa llamado miprograma.py en la carpeta Aphpabot de la Raspberry luego las instrucciones serían en el terminal ssh:
+>Nota: También se puede hacer de forma textual con el [protocolo SSH](https://catedu.gitbooks.io/raspberry-muy-basico/content/5-ssh.html) ejecutando la orden  python. 
+>Por ejemplo: Tenemos un programa llamado miprograma.py en la carpeta Aphpabot de la Raspberry luego las instrucciones serían en el terminal ssh:
 >cd ~/AlphaBot/  
 >sudo python miprograma.py 
 
