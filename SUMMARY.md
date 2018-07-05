@@ -30,7 +30,8 @@
   * [5.2 VARIABLES.py y NEC.py](52-libreria-necpy.md)
   * [5.3 M1 Test Control Remoto IR](53-m1-test-control-remoto-ir.md)
   * [5.4 M2 Control remoto](m2-control-remoto.md)
-* [6 Servos](6-servos.md)
+* [7 Servos](6-servos.md)
+* [6 Módulo siguelíneas](6-modulo-siguelineas.md)
 
 ---
 
