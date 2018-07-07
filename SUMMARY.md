@@ -32,6 +32,7 @@
   * [5.4 M2 Control remoto](m2-control-remoto.md)
 * [7 Servos](6-servos.md)
 * [6 Módulo siguelíneas](6-modulo-siguelineas.md)
+  * [6.2 TLC1543](6-modulo-siguelineas/62-tlc1543.md)
 
 ---
 
