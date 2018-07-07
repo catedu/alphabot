@@ -18,7 +18,8 @@ En la [teoría del TLC1543 ¿Cómo funciona?](/6-modulo-siguelineas/62-tlc1543.m
 #TLC1543.py
 Tal y como hemos visto en la [teoría del TLC1543 ¿Cómo funciona?](/6-modulo-siguelineas/62-tlc1543.md) podemos hacer una librería que tenga una función **SENSORLINEA(cual)**
 que nos devuelva el valor que lee el sensor _cual_:
-* Primero realizamos una función **SACADIRECCION** que active la salida ADDRESS según sus bits basándonos en la función **Damebit** que hemos visto.
+* Importamos las variables de **VARIABLES.py**
+* Luego realizamos una función **SACADIRECCION** que active la salida ADDRESS según sus bits basándonos en la función **Damebit** que hemos visto.
 * Activamos 4 golpes de reloj sacando la dirección **ADDRESS** con la función SACADIRECCION
 * Hacemos 6 pulsos de **CLOCK** perdidos
 * Hacemos 10 pulsos de CLOCK pero leyendo el valor **DATAOUT** y convirtiendo esos bits en un número decimal, ese será el valor que devolverá la función **SENSORLINEA(cual)**
