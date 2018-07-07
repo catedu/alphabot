@@ -6,6 +6,8 @@
   * [1.2 Desventajas](desventajas.md)
   * [1.3 DIY](diy.md)
   * [1.4 Configuración](13-comunicaciones.md)
+  * 1.5 Pensamiento computacional
+  * [1.6 Vaya programación cutre!](16-vaya-programacion-cutre.md)
 * [2 Movimiento](movimiento.md)
   * [2.1 GPIO](gpio.md)
   * [2.2 PWM](pwm.md)
