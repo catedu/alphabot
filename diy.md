@@ -126,7 +126,7 @@ Esta parte es la más difícil !!!
 
 <iframe src="https://giphy.com/embed/3o7abrH8o4HMgEAV9e" width="480" height="241" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-3o7abrH8o4HMgEAV9e">via GIPHY</a></p>
 
-De momento algo sencillote: Conectar los servos
+De momento algo sencillote: Conectar los servos **CABLE MARRÓN A GND**:
 
 ![](/assets/PICT0052.JPG)
 
