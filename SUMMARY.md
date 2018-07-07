@@ -33,6 +33,7 @@
 * [7 Servos](6-servos.md)
 * [6 Módulo siguelíneas](6-modulo-siguelineas.md)
   * [6.2 TLC1543](6-modulo-siguelineas/62-tlc1543.md)
+  * [6.3 TLC1543.py y VARIABLES.py](6-modulo-siguelineas/tlc1543py.md)
 
 ---
 
