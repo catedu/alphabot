@@ -37,6 +37,7 @@
   * [6.2 TLC1543](6-modulo-siguelineas/62-tlc1543.md)
   * [6.3 TLC1543.py y VARIABLES.py](6-modulo-siguelineas/tlc1543py.md)
   * [6.4 M1-Test-Sigue-lineas](6-modulo-siguelineas/64-m1-test-sigue-lineas.md)
+  * [6.5 M2 siguelineas](6-modulo-siguelineas/65-m2-siguelineas.md)
 
 ---
 
