@@ -16,8 +16,14 @@ En la [teoría del TLC1543 ¿Cómo funciona?](/6-modulo-siguelineas/62-tlc1543.m
 <iframe height="400px" width="100%" src="https://repl.it/@javierquintana/ObtenerBitEntero?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 #TLC1543.py
-Tal y como hemos visto en la [teoría del TLC1543 ¿Cómo funciona?](/6-modulo-siguelineas/62-tlc1543.md) podemos hacer un código que haga una función que nos devuelva el valor que leen los sensores:
-* Primero realizamos una función que devuelva 
+Tal y como hemos visto en la [teoría del TLC1543 ¿Cómo funciona?](/6-modulo-siguelineas/62-tlc1543.md) podemos hacer una librería que tenga una función **SENSORLINEA(cual)**
+que nos devuelva el valor que lee el sensor _cual_:
+* Primero realizamos una función **SACADIRECCION** que active la salida ADDRESS según sus bits basándonos en la función **Damebit** que hemos visto.
+* Activamos 4 golpes de reloj sacando la dirección **ADDRESS** con la función SACADIRECCION
+* Hacemos 6 pulsos de **CLOCK** perdidos
+* Hacemos 10 pulsos de CLOCK pero leyendo el valor **DATAOUT** y convirtiendo esos bits en un número decimal, ese será el valor que devolverá la función **SENSORLINEA(cual)**
+* Grabamos esto en un archivo TLC1543.py
+
 
 ```cpp+lineNumbers:true
 
