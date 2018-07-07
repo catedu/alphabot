@@ -2,6 +2,9 @@
 Podemos hacer un test para ver cómo funciona este siguelíneas y cómo funciona la librería
 
 * Importamos la librería [TLC1543 creada anteriormente](/6-modulo-siguelineas/tlc1543py.md)
+* Vamos leyendo cada uno de los sensores
+
+```cpp+lineNumbers:true
 
 import RPi.GPIO as GPIO
 import time
@@ -14,3 +17,5 @@ while True:
         print (" Sensor",i,"= ",x,end="")
     print(" ");
     time.sleep(0.5)
+```
+
