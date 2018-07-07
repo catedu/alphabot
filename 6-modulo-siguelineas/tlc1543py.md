@@ -11,7 +11,7 @@ Clock = 25
 Address = 24
 DataOut = 23
 #Script Damebit
-En la [teoría del TLC1543 ¿Cómo funciona?](/6-modulo-siguelineas/62-tlc1543.md) tenemos que obtener el bit de una posición dada de un número dado. [Aquí](https://repl.it/@javierquintana/ObtenerBitEntero) hay un pequeño script para hacerlo:
+En la [teoría del TLC1543 ¿Cómo funciona?](/6-modulo-siguelineas/62-tlc1543.md) tenemos que obtener el bit de una posición dada de un número dado. [Aquí](https://repl.it/@javierquintana/ObtenerBitEntero) hay un pequeño script para hacerlo (dale al play para ejecutarlo):
 
 <iframe height="400px" width="100%" src="https://repl.it/@javierquintana/ObtenerBitEntero?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
