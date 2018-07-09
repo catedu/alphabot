@@ -9,7 +9,8 @@ GPIO.setup(SERVOEJEX, GPIO.OUT, initial=GPIO.LOW)
 GPIO.setup(SERVOEJEZ, GPIO.OUT, initial=GPIO.LOW)
 
 #BRAZO.py
-Realmente el control de un servo se hace con una modulación PWM que ya hemos visto 
+Realmente el control de un servo se hace con una modulación PWM que ya hemos visto. La función que modula la señal PWM es ChangeDutyCycle y se le da el argumento en % entre 0 y 100. Si queremos 180º necesitamos un pulso de 2.5ms por lo que en 20ms corresponde a 12.5% por lo tanto la fórmula es % = 2.5+10*(angulo/180):
+
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time

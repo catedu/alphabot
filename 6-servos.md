@@ -9,7 +9,7 @@ Tiene 3 cables:
 * Naranja a 5V
 * Rojo la señal de control
 
-La señal de control tiene que emitir un pulso que según su duración se traduce en un ángulo de rotación del servo:
+La señal de control tiene que emitir un pulso alto durante un intervalo de al menos 20mseg, que según su duración en estado alto, se traduce en un ángulo de rotación del servo:
 
 ![](/assets/servo2.jpg)
 

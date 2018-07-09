@@ -34,6 +34,7 @@
   * [5.4 M2 Control remoto](m2-control-remoto.md)
 * [7 Servos](6-servos.md)
   * [7.1 BRAZO.py y VARIABLES.py](6-servos/71-servopy-y-variablespy.md)
+  * [7.2 Test Brazo](6-servos/72-test-brazo.md)
 * [6 Módulo siguelíneas](6-modulo-siguelineas.md)
   * [6.2 TLC1543](6-modulo-siguelineas/62-tlc1543.md)
   * [6.3 TLC1543.py y VARIABLES.py](6-modulo-siguelineas/tlc1543py.md)
