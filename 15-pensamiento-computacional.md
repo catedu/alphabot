@@ -3,6 +3,6 @@
 
   Esta [es la hoja de ruta](https://www.google.com/url?q=https://docs.google.com/drawings/d/e/2PACX-1vSnGHqK6AD7RaD8mVMBXUwXmzE4KXQQqdhBX6rGc7arR9_DOfE02i0wSDKuY20BO7VhPk39MQVcbqX_/pub?w%3D967%26h%3D1276&sa=D&ust=1513946282840000&usg=AFQjCNHkGuiM84lJ2wwR-rfHq2k9s0PxDA), no se tiene que tomar al pie de la letra, pero intenta ayudar al profesorado que tenga una visión global de tanta oferta:
   
-Como se puede ver ALPHABOT es 
+Como se puede ver ALPHABOT es LA ALTERNATIVA ROBÓTICA A PYTHON. En programación con código (es decir, no gráfica con bloques) tenemos Python y Java, y en robótica Arduino y Alphabot.
 
 ![](https://docs.google.com/drawings/d/e/2PACX-1vSnGHqK6AD7RaD8mVMBXUwXmzE4KXQQqdhBX6rGc7arR9_DOfE02i0wSDKuY20BO7VhPk39MQVcbqX_/pub?w=967&h=1276)
