@@ -32,14 +32,15 @@
   * [5.2 VARIABLES.py y NEC.py](52-libreria-necpy.md)
   * [5.3 M1 Test Control Remoto IR](53-m1-test-control-remoto-ir.md)
   * [5.4 M2 Control remoto](m2-control-remoto.md)
-* [7 Servos](6-servos.md)
-  * [7.1 BRAZO.py y VARIABLES.py](6-servos/71-servopy-y-variablespy.md)
-  * [7.2 Test Brazo](6-servos/72-test-brazo.md)
 * [6 Módulo siguelíneas](6-modulo-siguelineas.md)
   * [6.2 TLC1543](6-modulo-siguelineas/62-tlc1543.md)
   * [6.3 TLC1543.py y VARIABLES.py](6-modulo-siguelineas/tlc1543py.md)
   * [6.4 M1-Test-Sigue-lineas](6-modulo-siguelineas/64-m1-test-sigue-lineas.md)
   * [6.5 M2 siguelineas](6-modulo-siguelineas/65-m2-siguelineas.md)
+* [7 Servos](6-servos.md)
+  * [7.1 BRAZO.py y VARIABLES.py](6-servos/71-servopy-y-variablespy.md)
+  * [7.2 Test Brazo](6-servos/72-test-brazo.md)
+
 
 ---
 
