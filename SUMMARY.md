@@ -33,6 +33,7 @@
   * [5.3 M1 Test Control Remoto IR](53-m1-test-control-remoto-ir.md)
   * [5.4 M2 Control remoto](m2-control-remoto.md)
 * [7 Servos](6-servos.md)
+  * [7.1 SERVO.py y VARIABLES.py](6-servos/71-servopy-y-variablespy.md)
 * [6 Módulo siguelíneas](6-modulo-siguelineas.md)
   * [6.2 TLC1543](6-modulo-siguelineas/62-tlc1543.md)
   * [6.3 TLC1543.py y VARIABLES.py](6-modulo-siguelineas/tlc1543py.md)
