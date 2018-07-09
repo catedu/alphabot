@@ -1,0 +1,29 @@
+#VARIABLES.py
+En Alphabot el servo de abajo del brazo robot (lo llamaremos eje z por ser el responsable del giro del eje vertical) está conectado al GPIO 27 y el servo de arriba (lo llamaremos x) al GPIO 22 luego añadiremos estas líneas en nuestro fichero VARIABLES.py. Lo configuramos como salida y que inicialmente esten no activos para que no se mueva el brazo en el comienzo:
+
+########## SERVOS BRAZO ROBOT
+SERVOEJEX = 22
+SERVOEJEZ = 27
+############# SERVOS BRAZO ROBOT
+GPIO.setup(SERVOEJEX, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(SERVOEJEZ, GPIO.OUT, initial=GPIO.LOW)
+
+#BRAZO.py
+
+
+
+import RPi.GPIO as GPIO
+import time
+
+import * from VARIABLES
+
+servox = GPIO.PWM(SERVOEJEX,40)
+servoz = GPIO.PWM(SERVOEJEZ,40)
+servox.start(0)
+servoz.start(0)
+
+def ANGULO(angle,x):
+    if (x):
+        servox.ChangeDutyCycle(2.5 + 10.0 * angle / 180)
+    else:
+        servoz.ChangeDutyCycle(2.5 + 10.0 * angle / 180)
