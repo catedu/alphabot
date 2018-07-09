@@ -9,8 +9,7 @@ GPIO.setup(SERVOEJEX, GPIO.OUT, initial=GPIO.LOW)
 GPIO.setup(SERVOEJEZ, GPIO.OUT, initial=GPIO.LOW)
 
 #BRAZO.py
-
-
+Realmente el control de un servo se hace con una modulación PWM que ya hemos visto 
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time
