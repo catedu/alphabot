@@ -11,7 +11,7 @@ GPIO.setup(SERVOEJEZ, GPIO.OUT, initial=GPIO.LOW)
 #BRAZO.py
 
 
-
+```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time
 
@@ -27,3 +27,5 @@ def ANGULO(angle,x):
         servox.ChangeDutyCycle(2.5 + 10.0 * angle / 180)
     else:
         servoz.ChangeDutyCycle(2.5 + 10.0 * angle / 180)
+```
+
