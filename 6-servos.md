@@ -13,3 +13,5 @@ La señal de control tiene que emitir un pulso alto durante un intervalo de al m
 
 ![](/assets/servo2.jpg)
 
+![](http://picmania.garcia-cuervo.net/images/servo_pulsos_pwm.jpg)
+
