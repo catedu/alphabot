@@ -5,7 +5,7 @@ Vamos a realizar una función que controle con el teclado el brazo robótico:
 
 Fijaremos de antemano un incremento de 10ª cada vez que pulsamos la tecla. Veamoslo con un vídeo:
 
-{% youtube %}https://www.youtube.com/watch?v=n0tOHIHl0Rs&feature=youtu.be{% endyoutube %}
+{% youtube %}https://www.youtube.com/watch?v=S3Z9vRjPtQo&feature=youtu.be{% endyoutube %}
 ####Solución
 * Ponemos la librería del fichero BRAZO.py en la misma carpeta que vamos a crear este programa y la incorporamos en el programa con **import**.
 * Importamos las variables también con import * from VARIABLES
@@ -20,7 +20,7 @@ Fichero [M2-Movimientos-Teclas.py](https://github.com/JavierQuintana/AlphabotPyt
 import RPi.GPIO as GPIO
 import time
 
-import * from VARIABLES
+from VARIABLES import *
 
 import BRAZO
 
@@ -29,7 +29,7 @@ anguloz=90
 incremento=20
 print("Teclas 8 y 2 SERVOX\n Teclas 4 y 6 SERVOZ")
 while True:
-    BRRAZO.ANGULO(angulox,1)
+    BRAZO.ANGULO(angulox,1)
     BRAZO.ANGULO(anguloz,0)
     tecla=input("Mueve el brazo : ")
     if (tecla=="8"):
