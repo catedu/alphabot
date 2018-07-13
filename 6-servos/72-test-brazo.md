@@ -13,6 +13,7 @@ Fijaremos de antemano un incremento de 10ª cada vez que pulsamos la tecla. Veam
 * Todo dentro de un bucle.
 
 ¿Te atreves? :
+
 %accordion%Solución%accordion%
 
 Fichero [M2-Movimientos-Teclas.py](https://github.com/JavierQuintana/AlphabotPython/)
