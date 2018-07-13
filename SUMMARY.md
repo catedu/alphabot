@@ -40,7 +40,11 @@
 * [7 Servos](6-servos.md)
   * [7.1 BRAZO.py y VARIABLES.py](6-servos/71-servopy-y-variablespy.md)
   * [7.2 Test Brazo](6-servos/72-test-brazo.md)
-
+* [8 Cámara](8-camara.md)
+  * [8.1 ¿Qué vamos a hacer?](8-camara/81-que-vamos-a-hacer.md)
+  * [8.3 WebIOPi](8-camara/82-webiopi.md)
+  * 8.4 MJPEG-Streamer
+  * 8.2 ¿Dónde conseguirlos?
 
 ---
 
