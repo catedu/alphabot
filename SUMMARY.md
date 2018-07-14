@@ -43,7 +43,7 @@
 * [8 Cámara](8-camara.md)
   * [8.1 ¿Qué vamos a hacer?](8-camara/81-que-vamos-a-hacer.md)
   * [8.3 WebIOPi](8-camara/82-webiopi.md)
-  * 8.4 MJPEG-Streamer
+  * [8.4 MJPEG-Streamer](8-camara/84-mjpeg-streamer.md)
 
 ---
 
