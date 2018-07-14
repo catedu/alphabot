@@ -44,7 +44,7 @@
   * [8.1 ¿Qué vamos a hacer?](8-camara/81-que-vamos-a-hacer.md)
   * [8.3 WebIOPi](8-camara/82-webiopi.md)
   * 8.4 MJPEG-Streamer
-  * 8.2 ¿Dónde conseguirlos?
+  * [8.2 ¿Dónde conseguirlos?](8-camara/82-donde-conseguirlos.md)
 
 ---
 
