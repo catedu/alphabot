@@ -33,13 +33,5 @@ Se descargará un fichero comprimido que lo descomprimiremos en la Raspberry
 Si sale bien, saldrá el mensaje : _ No rule to make target 'clear'. Stop._ .
 Si sale mal, tienes que entrar en el fichero que está en _mjpg-streamer/plugins/input_uvc/input_uvc.c_ y cambiar donde pone V4L2_PIX_FMT_MJPEG por V4L2_PIX_FMT_YUYV 
 
-##Arrancar MJPG-STREAMER
-Entrar en el directorio donde esta mjpeg-streamer, abrimos una terminal con el botón derecho en esa carpeta y tecleamos:
-
->sudo ./start.sh
-
-sale lo siguiente:
-
-![](/assets/mjpeg3.jpg)
 
 
