@@ -5,11 +5,16 @@ El proyecto está respaldado por Google y necesita Raspbian y Python 2.7 o 3.2.
 Abrimos un terminal SSH ([ya lo hemos visto cómo se hace](https://catedu.gitbooks.io/raspberry-muy-basico/content/5-ssh.html)) y tecleamos los siguientes comandos:
 
 >cd /home/pi
+
 >sudo wget http://sourceforge.net/projects/webiopi/files/WebIOPi-0.7.1.tar.gz
+
 >sudo tar xvzf WebIOPi-0.7.1.tar.gz
+
 >cd WebIOPi-0.7.1
+
 >sudo wget https://raw.githubusercontent.com/doublebind/raspi/master/webiopi-pi2bplus.patch
 patch -p1 -i webiopi-pi2bplus.patch
+
 >sudo ./setup.sh
 
 ##Arrancar el servicio WebIOPi. 
