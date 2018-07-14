@@ -54,7 +54,7 @@ con la placa
 
 ###Sensor de siguelíneas
 
-Hay tres tipos de barras, elegimos 2 de las **medianas** _(no sé para que sirven las pequeñas)_
+Hay tres tipos de barras, elegimos **siempre las largas** _(no sé para que sirven las pequeñas)_
 
 ![](/assets/PICT0036.JPG)
 
@@ -66,9 +66,9 @@ Conectamos
 
 ![](/assets/PICT0038.JPG)
 
-y atornillamos
+y aún no atornillamos, tiene que ir atornillado al final, cuando pongamos la tapa inferior. **El sensor tiene que estar atrapado con el tornillo entre la barra y la tapa inferior**. Esta foto es para que veas cómo tiene que quedar al final, pero aún no lo hagas:
 
-![](/assets/PICT0039.JPG)
+![](/assets/colocacionsiguelineas.JPG)
 
 ###Sensor distancia IR
 
@@ -117,9 +117,9 @@ Ahora ya podemos colocar la Raspberry en el zócalo de los GPIO:
 
 ![](/assets/PICT0051.JPG)
 
-Aprovechamos y ponemos las barras largas para proteger los distintos elementos _(Fe de erratas: Las 2 barras de la parte delantera tienen que ir más separados, a los agujeros cerca de las tuercas)._
+Aprovechamos y ponemos las barras largas para proteger los distintos elementos _(Las 2 barras de la parte delantera pueden ir en esa posición o en los otros dos agujeros má adelante)._
 
-![](/assets/PICT0053.JPG)
+![](/assets/barras.JPG)
 
 ##Brazo robótico
 Esta parte es la más difícil !!!

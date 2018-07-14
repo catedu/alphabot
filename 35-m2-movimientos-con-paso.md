@@ -15,6 +15,7 @@ Fijaremos de antemano las velocidades y el paso a 50 y 10 por ejemplo.
 * Ponemos las librerías fichero [MOVIMIENTOS.py](/24-libreria-movimientospy.md) y [MOVIMIENTOSPASO.py](/34-movimientospasopy.md) en la misma carpeta que vamos a crear este programa y las incorporamos en el programa con **import**.
 * Vamos llamando a las distintas funciones de movimientos según la tecla pulsada, fijamos la velocidad al 50%, por pantalla va saliendo el estado de los contadores.
 * Todo dentro de un bucle de manera que si pulsamos la tecla espacio sale del buble no sin antes parar el robot.
+
 %accordion%Solución%accordion%
 
 Fichero [M2-Movimientos-Teclas.py](https://github.com/JavierQuintana/AlphabotPython/)
