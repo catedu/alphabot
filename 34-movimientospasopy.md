@@ -4,8 +4,9 @@ Vamos a hacer una pequeña función donde le pasemos dos argumentos por cada mot
 * Si el número de pasos es positivo va hacia delante el motor.
 * Si el paso es negativo es que el motor va hacia atrás.
 * Los motores funcionarán con la velocidades dadas en los argumentos.
+* En total 4 argumentos tiene la función, dos para cada motor R y L: _velR,numR,velL,numL_ donde _vel_ es la velocidad del motor y _num_ el número de pasos.
 
-¿Te atreves? Sino, mira la solución:
+¿Te atreves? Sino, mira la solución: 
 
 %accordion%Solución%accordion%
 
