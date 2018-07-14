@@ -207,8 +207,7 @@ Es un buen momento para colocar la cámara. Levantamos la pieza negra sin arranc
 ![](/assets/PICT0073.JPG)
 
 Ponemos el cable con el lado azul mirando hacia la cámara como en la foto y volvemos a colocar la pieza negra:
-
-![](/assets/colocarcamara.JPG)
+ ![](/assets/colocarcamara.JPG)
 
 **CHAPUZA3** Mete la cámara a presión y verás: ¡¡ Es más grande la cámara que el soporte !!. Queda torcido, no es muy estético pero está bien sujeto:
 
