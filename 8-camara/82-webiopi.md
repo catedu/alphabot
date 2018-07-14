@@ -18,14 +18,17 @@ patch -p1 -i webiopi-pi2bplus.patch
 >sudo ./setup.sh
 
 ##Arrancar el servicio WebIOPi. 
-Puedes arrancar y parar el servicio WebIOPi con los comandos
+Puedes arrancar y parar el servicio WebIOPi con los comandos:
+
 >sudo /etc/init.d/webiopi start
-sudo /etc/init.d/webiopi stop
+
+>sudo /etc/init.d/webiopi stop
 
 Pero recomendamos configurarlo para que se inicie automáticamente durante el arranque con el comando:
 >sudo update-rc.d webiopi defaults
 
 Para anulara la anterior instrucción (o sea que WebIOPi NO se inicie automáticamente):
+
 >sudo update-rc.d webiopi remove
 
 ##Acceso

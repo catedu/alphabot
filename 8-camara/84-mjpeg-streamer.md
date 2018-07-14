@@ -15,6 +15,7 @@ Tiene algunos pasos algo complejos:
 
 3.- Instalamos estas librerías:
 >sudo apt-get install libv4l-dev libjpeg8-dev
+
 >sudo apt-get install subversion
 
 4.-En la página https://www.waveshare.com/wiki/AlphaBot tienes Software demo y también el software WepIOPi y MJPEG-Streamer:
