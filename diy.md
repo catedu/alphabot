@@ -210,7 +210,7 @@ Ponemos el cable con el lado azul mirando hacia la cámara como en la foto y vol
 
 ![](/assets/colocarcamara.JPG)
 
-**CHAPUZA3** No, no entra, se queda torcido, no queda estético pero está bien sujeto:
+**CHAPUZA3** Mete la cámara a presión y verás: ¡¡ Es más grande la cámara que el soporte !!. Queda torcido, no es muy estético pero está bien sujeto:
 
 ![](/assets/PICT0075.JPG)
 
