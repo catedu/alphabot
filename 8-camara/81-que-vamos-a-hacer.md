@@ -11,6 +11,6 @@ camera.stop_preview()
 ```
 Pero nosotros necesitamos que retransmita las imágenes, pues el robot se mueve, no tiene instalado un monitor, luego los pasos son los siguientes:
 
-1. Instalar un programa servidor via web (tipo como el Apache pero sólo para este propósito) se llama **WEBIOPI.**
+1. Instalar un programa servidor via web (tipo como el Apache pero adaptado a IO para la Raspberry) se llama **WEBIOPI.**
 1. Instalar el programa que se ejecutará sobre el anterior y que nos retransmitirá el streaming **MJPG-STREAMER.**
 
