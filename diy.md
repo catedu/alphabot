@@ -117,7 +117,7 @@ Ahora ya podemos colocar la Raspberry en el zócalo de los GPIO:
 
 ![](/assets/PICT0051.JPG)
 
-Aprovechamos y ponemos las barras largas para proteger los distintos elementos _(Las 2 barras de la parte delantera pueden ir en esa posición o en los otros dos agujeros má adelante)._
+Aprovechamos y ponemos las barras largas para proteger los distintos elementos _(Las 2 barras de la parte delantera pueden ir en esa posición o en los otros dos agujeros más adelantados)._
 
 ![](/assets/barras.JPG)
 
@@ -206,9 +206,9 @@ Es un buen momento para colocar la cámara. Levantamos la pieza negra sin arranc
 
 ![](/assets/PICT0073.JPG)
 
-Ponemos el cable con el lado azul como en la foto y volvemos a colocar la pieza negra:
+Ponemos el cable con el lado azul mirando hacia la cámara como en la foto y volvemos a colocar la pieza negra:
 
-![](/assets/PICT0074.JPG)
+![](/assets/colocarcamara.JPG)
 
 **CHAPUZA3** No, no entra, se queda torcido, no queda estético pero está bien sujeto:
 
