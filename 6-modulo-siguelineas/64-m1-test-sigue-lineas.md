@@ -5,6 +5,13 @@ Podemos hacer un test para ver cómo funciona este siguelíneas y cómo funciona
 * Vamos leyendo cada uno de los sensores.
 * Que salga por pantalla los valores leídos.
 
+{% youtube %}https://www.youtube.com/watch?v=MFWnOyL_nzU&feature=youtu.be{% endyoutube %}
+¿Te atreves? :
+
+%accordion%Solución%accordion%
+
+Fichero [Testsiguelineas.py](https://github.com/JavierQuintana/AlphabotPython/)
+
 ```cpp+lineNumbers:true
 
 import RPi.GPIO as GPIO
@@ -19,4 +26,6 @@ while True:
     print(" ");
     time.sleep(0.5)
 ```
+
+%/accordion%
 
