@@ -14,6 +14,7 @@ Tiene algunos pasos algo complejos:
 2.- Reiniciamos para que cargue el módulo señalado
 
 3.- Instalamos estas librerías:
+
 >sudo apt-get install libv4l-dev libjpeg8-dev
 
 >sudo apt-get install subversion
