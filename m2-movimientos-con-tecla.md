@@ -14,6 +14,7 @@ Ahora vamos a hacer lo mismo, pero gobernado por el teclado:
 * En este programa importamos la librería de MOVIMIENTOS.py.
 * Vamos llamando a las distintas funciones de movimientos según la tecla pulsada, fijamos la velocidad al 30% para que nos de tiempo de gobernarlo, por pantalla va saliendo el mensaje del estado.
 * Todo dentro de un bucle de manera que si pulsamos la tecla espacio sale del buble no sin antes parar el robot.
+
 %accordion%Solución%accordion%
 
 Fichero [M2-Movimientos-Teclas.py](/Movimientos-tecla)
