@@ -1,4 +1,10 @@
 #M2 Sigue líneas
+Vamos a realizar un programa que siga la línea:
+* Pero AL REVÉS!!! ¿por qué marcha atrás? mira al final de la página.
+
+Fijaremos de antemano una velocidad pequeña de 25 y un incremento de velocidad en los motors de 10 cuando no está centrado. Veamoslo con un vídeo:
+
+{% youtube %}https://www.youtube.com/watch?v=rsdQ9fGOl-I&feature=youtu.be{% endyoutube %}
 
 
 
