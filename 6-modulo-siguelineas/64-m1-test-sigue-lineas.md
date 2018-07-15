@@ -6,7 +6,7 @@ Podemos hacer un test para ver cómo funciona este siguelíneas y cómo funciona
 * Que salga por pantalla los valores leídos.
 
 {% youtube %}https://www.youtube.com/watch?v=MFWnOyL_nzU&feature=youtu.be{% endyoutube %}
-¿Te atreves? :
+¿Te atreves?:
 
 %accordion%Solución%accordion%
 
