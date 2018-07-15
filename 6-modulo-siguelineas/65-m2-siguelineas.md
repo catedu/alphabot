@@ -11,12 +11,17 @@ Fijaremos de antemano una velocidad pequeña de 25 y un incremento de velocidad 
 ###Solución
 La solución es fácil con la librería TLC1543.py donde la función **SENSORLINEA(cual)** nos da el valor que lee los sensores IR. Recuerda que TLC1543.py en la misma carpeta que vamos a crear este programa y las incorporamos en el programa con **import**.
 * También incorporamos las variables definidas en **VARIABLES.py**
-* Hay que ajustar la velocidad de los motores según la diferencia de lecturas con respecto al valor central 
+ 
 ¿Te atreves?
 
 %accordion%Solución%accordion%
 
-Fichero [M2-Siguelineas.py](https://github.com/JavierQuintana/AlphabotPython/)
+* Leemos la lectura de los 5 sensores
+* Ajustamos la velocidad de los motores según si hay lectura de línea negra y donde
+* La potencia PWM no puede pasar de 0 a 100 por eso limitamos los valores
+* Si no hay linea negra que vuelva hasta que recupera la línea negra:
+
+Fichero [Siguelineas.py](https://github.com/JavierQuintana/AlphabotPython/)
 
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
@@ -104,3 +109,6 @@ while True:
     
 ```
 %/accordion%
+
+#¿Por qué este ejercicio ALPHABOT va al revés?
+Por que los sensores siguelineas por la parte de atrás y funcionando ALPHABOT hacia delante **SE PRODUCE UNA REALIMENTACIÓN POSITIVA** es decir, cuando detecta que hay que girar, gira, pero la cola se mueve demasiado deprisa que produce que pierda la línea
