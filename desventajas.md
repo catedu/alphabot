@@ -28,6 +28,7 @@ Y por supuesto levantar el robot para que no salga disparado conectado con el ca
 
 ![](/assets/2018-07-01 17_37_11-PhotoFiltre.jpg)
 
+* Otro defecto es **la colocación del siguelíneas atrás del sentido de la marcha**, esto lo veremos en [el capítulo correspondiente](/6-modulo-siguelineas/65-m2-siguelineas.md) y lo solucionaremos haciendo que vaya hacia atrás, pero claro, la cámara enfoca a la parte trasera y pierde su gracia.
 
 
 
