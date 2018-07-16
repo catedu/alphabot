@@ -114,7 +114,7 @@ while True:
 Por que los sensores siguelineas por la parte de atrás y funcionando ALPHABOT hacia delante **SE PRODUCE UNA REALIMENTACIÓN POSITIVA** es decir, cuando detecta que hay que girar, gira, pero la cola se mueve demasiado deprisa que produce que pierda la línea. Controlar Alphabot de forma que siga las líneas pero con el sensor siguelíneas detrás del sentido de la marcha **es posible pero es difícil** [la demo de Alphabot ](https://www.waveshare.com/wiki/AlphaBot)lleva el software para hacerlo.
 
 ###Chocheando un poco.. esto me recuerda a una vieja historia..
-Los pioneros de la aviacilón lo tuvieron difícil. Se lo podríamos preguntar al pastor de Coruña del Conde **Diego Marín Aquilera** que en 1793 inventó un artilugio que volaba de forma controlada... la pena es que el cura del pueblo junto con los lugareños no tenían ni idea que este español hubiera hecho historia y pensaban que eso era obra del demonio por lo tanto quemaron todos sus inventos.
+Los pioneros de la aviacilón lo tuvieron difícil. Se lo podríamos preguntar al pastor de Coruña del Conde **[Diego Marín Aquilera](https://es.wikipedia.org/wiki/Diego_Mar%C3%ADn_Aguilera)** que en 1793 inventó un artilugio que volaba de forma controlada... la pena es que el cura del pueblo junto con los lugareños no tenían ni idea que este español hubiera hecho historia y pensaban que eso era obra del demonio por lo tanto quemaron todos sus inventos.
 
 Esa mala suerte no lo tuvieron los hermanos Wright que en 1903 volaron su primer artilugio:
 
