@@ -37,7 +37,7 @@
   * [6.2 TLC1543](6-modulo-siguelineas/62-tlc1543.md)
   * [6.3 TLC1543.py y VARIABLES.py](6-modulo-siguelineas/tlc1543py.md)
   * [6.4 Test-Sigue-lineas](6-modulo-siguelineas/64-m1-test-sigue-lineas.md)
-  * [6.5 M2 siguelineas](6-modulo-siguelineas/65-m2-siguelineas.md)
+  * [6.5 Siguelineas](6-modulo-siguelineas/65-m2-siguelineas.md)
 * [7 Servos](6-servos.md)
   * [7.1 BRAZO.py y VARIABLES.py](6-servos/71-servopy-y-variablespy.md)
   * [7.2 Test Brazo](6-servos/72-test-brazo.md)

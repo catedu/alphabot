@@ -113,6 +113,11 @@ while True:
 #¿Por qué en este ejercicio ALPHABOT va al revés?
 Por que los sensores siguelineas por la parte de atrás del sentido de la marcha **PRODUCE UNA REALIMENTACIÓN POSITIVA** es decir, cuando detecta que hay que girar, gira, pero la cola se mueve demasiado deprisa que produce que pierda la línea. Controlarlo **es posible pero es difícil** [la demo de Alphabot ](https://www.waveshare.com/wiki/AlphaBot)lleva el software para hacerlo.
 
+###No seas cobarde!! Pruébalo.
+* Cambia el código anterior las marchas es decir los GPIO.output los HIGH por LOW y viceversa
+* Y también el control, es decir en vez de +incremento pon -incremento y viceversa
+* ¿Funciona?
+
 ###Chocheando un poco.. esto me recuerda a una vieja historia..
 Los pioneros de la aviación lo tuvieron difícil. Se lo podríamos preguntar al **pastor** del pueblo Coruña del Conde: **[Diego Marín Aquilera](https://es.wikipedia.org/wiki/Diego_Mar%C3%ADn_Aguilera)** que en 1793 inventó un artilugio que volaba de forma controlada... la pena es que la Inquisición, el cura del pueblo junto con los lugareños no tenían ni idea que este español hubiera hecho historia, y que la aviación hubiera adelantado más de 100 años. Pensaban que eso era obra del demonio por lo tanto quemaron todos sus inventos.
 
