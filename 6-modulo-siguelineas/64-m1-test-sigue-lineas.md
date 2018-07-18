@@ -1,4 +1,4 @@
-#M1 Test Siguelineas
+#Test Siguelineas
 Podemos hacer un test para ver cómo funciona este siguelíneas y cómo funciona la librería
 
 * Importamos la librería [TLC1543 creada anteriormente](/6-modulo-siguelineas/tlc1543py.md)
