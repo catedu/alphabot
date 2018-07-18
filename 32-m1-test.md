@@ -31,7 +31,7 @@ En el segundo vídeo vídeo vemos como un simple contador puede detectar el paso
 
 El programa es el siguiente:
 
-Fichero [Pruebasensorvelocidad2.py](https://github.com/JavierQuintana/AlphabotPython/)
+Fichero [Pruebasensorvelocidad-2.py](https://github.com/JavierQuintana/AlphabotPython/)
 
 ```cpp+lineNumbers:true
 
@@ -46,10 +46,13 @@ GPIO.setup(DataMotorR,GPIO.IN)
 GPIO.setup(DataMotorL,GPIO.IN)
 
 contador=0
+repetido=0
 num = 100
 while (contador<num):
-      if(GPIO.input(DataMotorR)==1):
-            if(GPIO.input(DataMotorR)==0):
-                contador=contador+1
-                print('\nContador :',contador)
+    if((GPIO.input(DataMotorR)==1)and(repetido==0)):
+        contador=contador+1
+        print('\nContador :',contador)
+        repetido=1
+    if(GPIO.input(DataMotorR)==0):
+        repetido=0
 ```
