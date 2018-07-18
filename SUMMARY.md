@@ -47,6 +47,7 @@
   * [8.3 MJPEG-Streamer](8-camara/84-mjpeg-streamer.md)
   * [8.4 Ver la cámara](8-camara/84-ver-la-camara.md)
 * [9 Bajos del coche](9-bajoscoche.md)
+* [Grupo Robotica Educativa Aragon](grupo-robotica-educativa-aragon.md)
 
 ---
 
