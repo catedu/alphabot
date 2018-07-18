@@ -110,7 +110,7 @@ while True:
 ```
 %/accordion%
 
-#¿Por qué este ejercicio ALPHABOT va al revés?
+#¿Por qué en este ejercicio ALPHABOT va al revés?
 Por que los sensores siguelineas por la parte de atrás del sentido de la marcha **PRODUCE UNA REALIMENTACIÓN POSITIVA** es decir, cuando detecta que hay que girar, gira, pero la cola se mueve demasiado deprisa que produce que pierda la línea. Controlarlo **es posible pero es difícil** [la demo de Alphabot ](https://www.waveshare.com/wiki/AlphaBot)lleva el software para hacerlo.
 
 ###Chocheando un poco.. esto me recuerda a una vieja historia..
