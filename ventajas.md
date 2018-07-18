@@ -14,7 +14,7 @@ Para trabajar con el Arduino sólo tiene en la parte trasera dos conectorres:
 
 ![](/assets/uart.jpg)
 
-ATENCIÓN: En este curso SÓLO VAMOS A TRABAJAR CON LA RASPBERRY por lo tanto no trabajaremos estos puntos específicos para Arduino. (Una de las ventajas de trabajar con la Raspberry es que ya tiene Bluetooth y Wifi integrados).
+**ATENCIÓN**: En este curso SÓLO VAMOS A TRABAJAR CON LA RASPBERRY por lo tanto no trabajaremos estos puntos específicos para Arduino. (Una de las ventajas de trabajar con la Raspberry es que ya tiene Bluetooth y Wifi integrados).
 
 ###Al grano: ¿cuanto cuesta?
 Aproximadamente unos 100€ se puede conseguir en:
