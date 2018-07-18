@@ -5,7 +5,7 @@ Se puede conseguir más precisión añadiendo un tercer sensor y mucho más prec
 
 Mira en [esta página](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/sensor_de_ultrasonidos.html) para saber cómo se utiliza con el Arduino.
 
-Básicamente se emite un pulso por el pint Trigger, él emite una señal de 40kHz y según el eco recibido saca por Output un pulso cuyo ancho es proporcional a la distancia:
+Básicamente se emite un pulso por el pin Trigger, él emite una señal de 40kHz y según el eco recibido saca por Output un pulso cuyo ancho es proporcional a la distancia:
 
 ![](/assets/ultrasonidos.jpg)
 
