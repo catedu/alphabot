@@ -29,6 +29,11 @@ Muy fácil, el conector blanco de abajo está conectado con los siguientes GPIO:
 
 Por lo tanto, viendo la teoría, un posible función en código Python para utilizarlo sería:
 
+* Emitir un pulso alto por TRIG durante 15 microsegundos.
+* Esperar el pulso alto de ECHO
+* Cronometrar el pulso alto de ECHO
+* La distancia será velocidad por tiempo o sea: la diferencia el tiempo del pulso ECHO multiplicado por la velocidad del sonido y dividido por 2 pues es el recorrido del sonido ida y vuelta.
+
 ```cpp+lineNumbers:true
 TRIG = 17
 ECHO = 5
