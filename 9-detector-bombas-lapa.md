@@ -4,7 +4,7 @@ Para finalizar, vamos a ver un ejemplo de proyecto:
 Hemos visto varios elementos, son las piezas del puzzle de tu creatividad, vamos a ver un ejemplo de juntar varias.
 
 ##Bombas lapa
-No hace mucho ETA ponía bombas lapa debajo de los coches de personas que no pensaban como ellos (recordemos que en el 2018 se disolvío ETA, una historia triste que no hay que olvidar pues duró 50 años y causó la escalofriante cantidad de [854 víctimas mortales oficiales](https://elpais.com/especiales/eta/victimas/) pues faltan muchos casos sin resolver). Tenemos que recordar y aprender de nuestra historia. Sensibilizar a los alumnos de que nunca _las ideas tienen que ser más importantes que cualquier vida._
+No hace mucho tiempo que ETA ponía bombas lapa debajo de los coches de personas que no pensaban como ellos. Recordemos que en el 2018 se disolvío ETA, una historia triste que no hay que olvidar pues duró 50 años y causó la escalofriante cantidad de [854 víctimas mortales oficiales](https://elpais.com/especiales/eta/victimas/) pues faltan muchos casos sin resolver. Tenemos que recordar y aprender de nuestra historia. Sensibilizar a los alumnos de que nunca _las ideas tienen que ser más importantes que cualquier vida._
 
 ##Proyecto
  Este proyecto intenta hacer un robot que nos visualice de forma remota los bajos de un coche, así pues juntamos 3 piezas del puzzle:
