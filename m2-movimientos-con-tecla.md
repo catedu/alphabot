@@ -1,4 +1,4 @@
-#M2 Movimientos con teclas
+#Movimientos con teclas
 Ahora vamos a hacer lo mismo, pero gobernado por el teclado:
 
 * PARAR = tecla ESPACIO
@@ -17,7 +17,7 @@ Ahora vamos a hacer lo mismo, pero gobernado por el teclado:
 
 %accordion%Solución%accordion%
 
-Fichero [M2-Movimientos-Teclas.py](/Movimientos-tecla)
+Fichero [2-7-Movimientos-Teclas.py](/Movimientos-tecla)
 ```cpp+lineNumbers:true
 
 import RPi.GPIO as GPIO
