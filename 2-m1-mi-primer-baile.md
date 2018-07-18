@@ -14,7 +14,7 @@ Vamos a realizar un sencillo programa para romper el hielo, unos movimientos del
 
 %accordion%Solución%accordion%
 
-Fichero [M1Baile.py](https://github.com/JavierQuintana/AlphabotPython/)
+Fichero [2-6-Baile.py](https://github.com/JavierQuintana/AlphabotPython/)
 
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
