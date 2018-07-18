@@ -3,6 +3,7 @@ Encontramos algunas, por ejemplo:
 
 * **Fallos en el diseño:**
     * Del brazo de robot, el pie no se ajusta bien a la placa y tampoco a la cámara web (en las fotos las flechas amarillas) Ver Chapuzas nº 1, 2 y 3 de [DIY](/diy.md).
+    * El brazo robot está situado demasiado hacia delante, lo que dificulta la posibilidad de colocar un sensor de Ultrasonidos en la parte delantera, esto lo hablaremos en [este punto](/45-posibilidad-ultrasonidos.md).
     * El acceso a la tarjeta microSD es difícil, una manera es utilizando unas pinzas de depilar (ver foto) o desmontando la tapa inferior.
     * No se puede acceder a la alimentación por USB con la tapa inferior luego tenemos dos opciones:
         * Alimentar Alphabot con las pilas. (única opción cuando está en movimiento).
