@@ -1,5 +1,7 @@
-if #Test sensor obstáculos infrarrojos
+#Test sensor obstáculos infrarrojos
 Ejecutamos este pequeño programa:
+
+Fichero [4-2-TestObstaculoIR.py](https://github.com/JavierQuintana/AlphabotPython/)
 
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO

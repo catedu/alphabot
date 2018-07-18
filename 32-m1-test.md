@@ -4,6 +4,7 @@ En el siguiente vídeo vemos como cuando el sensor está encendido, el programa 
 
 {% youtube %}https://www.youtube.com/watch?v=anWM7Y54u98&feature=youtu.be{% endyoutube%}
 
+Fichero [Pruebasensorvelocidad.py](https://github.com/JavierQuintana/AlphabotPython/)
 
 El programa es el siguiente:
 ```cpp+lineNumbers:true
@@ -29,6 +30,9 @@ En el segundo vídeo vídeo vemos como un simple contador puede detectar el paso
 
 
 El programa es el siguiente:
+
+Fichero [Pruebasensorvelocidad2.py](https://github.com/JavierQuintana/AlphabotPython/)
+
 ```cpp+lineNumbers:true
 
 import RPi.GPIO as GPIO

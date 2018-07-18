@@ -18,7 +18,8 @@ Fijaremos de antemano las velocidades y el paso a 50 y 10 por ejemplo.
 
 %accordion%Solución%accordion%
 
-Fichero [M2-Movimientos-Teclas.py](https://github.com/JavierQuintana/AlphabotPython/)
+Fichero [3-5-Movimientos-paso.py](https://github.com/JavierQuintana/AlphabotPython/)
+
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time

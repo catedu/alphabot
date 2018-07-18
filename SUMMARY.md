@@ -21,7 +21,7 @@
   * [3.2 Prueba velocidad](32-m1-test.md)
   * [3.3 Variables.py](33-variablespy.md)
   * [3.4 MOVIMIENTOSPASO.py](34-movimientospasopy.md)
-  * [3.5 M2 Movimientos con paso](35-m2-movimientos-con-paso.md)
+  * [3.5 Movimientos con paso](35-m2-movimientos-con-paso.md)
 * [4 Sensor obstáculos IR](4-sensor-obstaculos-ir.md)
   * [4.1 ¿Cómo funciona?](41-como-funciona.md)
   * [4.2 Test](42-test.md)
