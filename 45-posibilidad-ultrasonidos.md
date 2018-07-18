@@ -27,7 +27,7 @@ Muy fácil, el conector blanco de abajo está conectado con los siguientes GPIO:
 * Echo en el GPIO 5
 * Trigger en el GPIO 17
 
-Por lo tanto, viendo la teoría, un posible función en código Python para utilizarlo sería:
+Por lo tanto, viendo la teoría, una posible función en código Python para utilizarlo sería:
 
 * Emitir un pulso alto por TRIG durante 15 microsegundos.
 * Esperar el pulso alto de ECHO

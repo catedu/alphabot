@@ -1,4 +1,4 @@
-#M2 CONTROL REMOTO
+#CONTROL REMOTO
 
 ¿Qué esperas? te lo pide el cuerpo !!! vamos a hacer un control remoto del robot !!
 
@@ -18,12 +18,12 @@ gobernado por el teclado *numérico*:
 La solución es fácil con las librerías que hemos aprendido:
 * Ponemos las librerías fichero [MOVIMIENTOS.py](/24-libreria-movimientospy.md) y ahora esta nueva [NEC.py](/5-control-remoto/51-como-funciona.md) en la misma carpeta que vamos a crear este programa y las incorporamos en el programa con **import**.
 * También incorporamos las variables definidas en **VARIABLES.py**
-* Utilizaremos los códigos que hemos optenido en [M1 Test Control Remoto IR.](/53-m1-test-control-remoto-ir.md)
+* Utilizaremos los códigos que hemos optenido en [Test Control Remoto IR.](/53-m1-test-control-remoto-ir.md)
 * Un bucle, si no detecta la tecla 5 que haga los movimientos según las teclas del mando IR.
 
 %accordion%Solución%accordion%
 
-Fichero [M2-Control-Remoto-IR.py](https://github.com/JavierQuintana/AlphabotPython/)
+Fichero [Control-Remoto-IR.py](https://github.com/JavierQuintana/AlphabotPython/)
 
 ```cpp+lineNumbers:true
 

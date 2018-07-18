@@ -1,6 +1,9 @@
-#M1 Test Control Remoto IR
+#Test Control Remoto IR
 
 Vamos a ejecutar un sencillo programa que nos vaya diciendo los códigos que lee las diferentes teclas utilizando la función key de la [librería NEC.py](/52-libreria-necpy.md)
+
+Fichero [Test-ControlRemoto-IR.py](https://github.com/JavierQuintana/AlphabotPython/)
+
 
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
