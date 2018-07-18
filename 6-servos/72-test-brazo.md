@@ -16,7 +16,7 @@ Fijaremos de antemano un incremento de 10ª cada vez que pulsamos la tecla. Veam
 
 %accordion%Solución%accordion%
 
-Fichero [M2-Movimientos-Teclas.py](https://github.com/JavierQuintana/AlphabotPython/)
+Fichero [Test-Brazo.py](https://github.com/JavierQuintana/AlphabotPython/)
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
 import time
