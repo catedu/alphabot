@@ -17,7 +17,7 @@ Para trabajar con el Arduino sólo tiene en la parte trasera dos conectorres:
 **ATENCIÓN**: En este curso SÓLO VAMOS A TRABAJAR CON LA RASPBERRY por lo tanto no trabajaremos estos puntos específicos para Arduino. (Una de las ventajas de trabajar con la Raspberry es que ya tiene Bluetooth y Wifi integrados).
 
 ###Al grano: ¿cuanto cuesta?
-Aproximadamente unos 100€ se puede conseguir en:
+Nosotros no somos comerciales, ni intermediarios, sólo somos formadores. Pero para informaros, cuesta aproximadamente unos 100€ se puede conseguir en:
 * [Aliexpres](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20180627103432&SearchText=alphabot) (ojo, que hay modelos **sin** Raspberry o **con** Raspberry)
 * En la web del fabricante [Waveshare](https://www.waveshare.com/product/alphabot-pi3-b-plus.htm)
 
