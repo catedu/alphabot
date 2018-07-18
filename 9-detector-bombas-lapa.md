@@ -18,7 +18,7 @@ Hemos visto varios elementos, son las piezas del puzzle de tu creatividad, vamos
 * El proyecto es fácil pues es la unión de [Movimientos paso a paso con las teclas](/35-m2-movimientos-con-paso.md) y [Movimiento brazo robótico](/6-servos/72-test-brazo.md)
 * Ver la cámara no implica ningún código Python especial, sólo es un comando Linux si está bien configurado.
 
-Fichero [Detecta-bombaslapa.py](https://github.com/JavierQuintana/AlphabotPython/)
+Fichero [BajosCoche.py](https://github.com/JavierQuintana/AlphabotPython/)
 
 ```cpp+lineNumbers:true
 import RPi.GPIO as GPIO
