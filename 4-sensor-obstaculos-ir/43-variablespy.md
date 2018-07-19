@@ -12,9 +12,11 @@ ENB=26
 ########SENSOR VELOCIDAD MOTORES
 DataMotorR = 7
 DataMotorL = 8
+
 **##########SENSOR OBSTACULOS IR
 DR = 16
 DL = 19**
+
 ##############CONFIGURACION GPIO ENTRADAS SALIDAS ####
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
@@ -31,9 +33,11 @@ PWMB = GPIO.PWM(ENB,500)
 ##################SENSOR VELOCIDAD MOTORES
 GPIO.setup(DataMotorR,GPIO.IN)
 GPIO.setup(DataMotorL,GPIO.IN)
+
 **####################SENSORES OBSTACULOS IR
 GPIO.setup(DR,GPIO.IN)
 GPIO.setup(DL,GPIO.IN)**
+
 
 
 
