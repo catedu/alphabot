@@ -14,7 +14,8 @@ Vamos a recordar lo que vimos [aquí](https://catedu.gitbooks.io/raspberry-muy-b
 
 Necesitamos una librería GPIO que Raspbian lo tiene por defecto, pero por si acaso ejecuta estas instrucciones:
 
-> sudo apt-get install python-dev  
+> sudo apt-get install python-dev
+>
 > sudo apt-get install pyton-rpi.gpio
 
 Normalmente te dirá que las tienes instaladas en su última versión.  
