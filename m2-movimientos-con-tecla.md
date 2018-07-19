@@ -15,9 +15,11 @@ Ahora vamos a hacer lo mismo, pero gobernado por el teclado:
 * Vamos llamando a las distintas funciones de movimientos según la tecla pulsada, fijamos la velocidad al 30% para que nos de tiempo de gobernarlo, por pantalla va saliendo el mensaje del estado.
 * Todo dentro de un bucle de manera que si pulsamos la tecla espacio sale del buble no sin antes parar el robot.
 
+¿Te atreves a hacerlo tú solo? sino, mira la solución:
+
 %accordion%Solución%accordion%
 
-Fichero [2-7-Movimientos-Teclas.py](/Movimientos-tecla)
+Fichero [2-7-Movimientos-Teclas.py](https://github.com/JavierQuintana/AlphabotPython/)
 ```cpp+lineNumbers:true
 
 import RPi.GPIO as GPIO
