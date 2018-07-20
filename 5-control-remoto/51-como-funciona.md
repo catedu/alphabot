@@ -1,5 +1,5 @@
 #Protolo NEC
-Alphabot tiene un receptor LFN0038K compatible con el protocolo estandard NEC y el mando emisor que acompaña a este kit también es compatible con él.
+Alphabot tiene un receptor LFN0038K compatible con el protocolo estandard NEC y el mando emisor que acompaña a este kit también es compatible con él. Encima, para complicarnos más las cosas, tiene configuración PULL-UP como el resto de sensores de este robot, por lo que si recibe del mando a distancia un 1 lógico, él transmite un 0 y viceversa.
 
  Una señal con el protocolo NEC es una especie de señal PWM donde un '0' es es un ciclo de 1.125ms la emisión de una señal de 0.565ms y un '1' lógico o mismo pero en un intervalo de 2.25ms, se ve mejor con un dibujo:
  
