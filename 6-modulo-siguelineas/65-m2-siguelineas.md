@@ -121,7 +121,7 @@ Por que los sensores siguelineas por la parte de atrás del sentido de la marcha
 ###Chocheando un poco.. esto me recuerda a una vieja historia..
 Los pioneros de la aviación lo tuvieron difícil. Se lo podríamos preguntar al **pastor** del pueblo Coruña del Conde: **[Diego Marín Aquilera](https://es.wikipedia.org/wiki/Diego_Mar%C3%ADn_Aguilera)** que en 1793 inventó un artilugio que volaba de forma controlada... la pena es que la Inquisición, el cura del pueblo junto con los lugareños no tenían ni idea que este español hubiera hecho historia, y que la aviación hubiera adelantado más de 100 años. Pensaban que eso era obra del demonio por lo tanto quemaron todos sus inventos.
 
-Esa mala suerte no lo tuvieron los hermanos Wright que en 1903 volaron su primer artilugio:
+Esa mala suerte no lo tuvieron **los hermanos Wright** que en 1903 volaron su primer artilugio:
 
 ![](/assets/wright.jpg)
 
@@ -129,4 +129,6 @@ _[Fuente Wikipedia]_
 
 Pero... pusieron **el timón delante**, esto provocaba también una **realimentación positiva** (al levantar el timón, levantaba el morro, y esto provocaba que se levantase aún más, y viceversa a la hora de bajarlo).
 Los hermanos Wright patentaron su invento y gastaron todo su dinero en abogados para defender que nadie copiase su control, pero la verdad es ... que nadie lo hizo: La industria de la aviación detectó el fallo y los elementos de control van por detrás del ala principal, esto crea una realimentación negativa, por lo tanto mayor estabilidad en el vuelo y ... la ruina de los hermanos Wright.
+
+>¿En el diseño de este Alphabot habrá participado algún descendiente de los hermanos Wright?
 
