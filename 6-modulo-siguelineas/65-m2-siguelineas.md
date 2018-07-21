@@ -115,7 +115,7 @@ Por que los sensores siguelineas por la parte de atrás del sentido de la marcha
 
 ###No seas cobarde!! Pruébalo.
 * Cambia el código anterior las marchas es decir los GPIO.output los HIGH por LOW y viceversa
-* Y también el control, es decir en vez de +incremento pon -incremento y viceversa
+* Y también el control de giro, es decir en vez de +incremento pon -incremento y viceversa
 * ¿Funciona?
 
 ###Chocheando un poco.. esto me recuerda a una vieja historia..
