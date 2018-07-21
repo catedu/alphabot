@@ -126,6 +126,6 @@ Esa mala suerte no lo tuvieron los hermanos Wright que en 1903 volaron su primer
 ![](/assets/wright.jpg)
 [Fuente Wikipedia]
 
-Pero... pusieron el timón delante, esto provocaba también una **realimentación positiva** (al levantar el timón, levantaba el morro, y esto provocaba que se levantase aún más, y viceversa a la hora de bajarlo).
+Pero... pusieron **el timón delante**, esto provocaba también una **realimentación positiva** (al levantar el timón, levantaba el morro, y esto provocaba que se levantase aún más, y viceversa a la hora de bajarlo).
 Los hermanos Wright patentaron su invento y gastaron todo su dinero en abogados para defender que no se copiasen su control, pero la industria de la aviación hizo lo normal, poner los elementos de control por detrás del ala principal, esto crea una realimentación negativa, por lo tanto mayor estabilidad en el vuelo y ... la ruina de los hermanos Wright.
 
