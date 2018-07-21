@@ -2,7 +2,7 @@
 Vamos a realizar un programa que siga la línea:
 * Pero **¡¡AL REVÉS!!!** ¿por qué marcha hacia atrás? (o sea, la cámara mira hacia atrás): mira al final de la página.
 
-Fijaremos de antemano una velocidad pequeña de 25 y un incremento de velocidad en los motors de 10 cuando no está centrado. Veamoslo con un vídeo:
+Fijaremos de antemano una velocidad pequeña de 25 y un incremento de velocidad de diferencia en los motores de 10% cuando no está centrado para que gire. Veamoslo con un vídeo:
 
 {% youtube %}https://www.youtube.com/watch?v=rsdQ9fGOl-I&feature=youtu.be{% endyoutube %}
 
