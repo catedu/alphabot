@@ -1,7 +1,7 @@
 # Posibilidad sensor Ultrasonidos
 
-Se puede conseguir más precisión añadiendo un tercer sensor y mucho más preciso: El sensor de Ultrasonidos.
-
+Se puede conseguir más precisión añadiendo un tercer sensor y mucho más preciso: El** sensor de Ultrasonidos.
+**
 ![](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/img/Captura_de_pantalla_2015-04-01_a_las_22.40.00.png)
 
 Mira en [esta página](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/sensor_de_ultrasonidos.html) para saber cómo se utiliza con el Arduino.
@@ -10,9 +10,14 @@ Básicamente se emite un pulso por el pin **Trigger**, él emite una señal de 4
 
 ![](/assets/ultrasonidos.jpg)
 
+##Conexión en alphabot
+
 En Alphabot se conectaría los cables en el conector blanco de abajo y el ultrasonidos con unos tornillos en los dos agujeros de la parte delantera:
 
 ![](/assets/conexionUS.jpg)
+
+CHAPUZA : Es un conector a simple vista compatible con la Shield Grove de Arduino pero no tiene el orden standard GND-Vcc-DATAIN-DATAOUT sino es GND-DATAOUT-DATAIN-VCC o sea GND-Trg-Echo-5V
+
 
 Para sujetar el sensor ultrasonidos al chasis habría que comprar un soporte:
 
