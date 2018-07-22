@@ -18,22 +18,15 @@ En Alphabot se conectaría los cables en el conector blanco de abajo y el ultras
 
 CHAPUZA : Es un conector a simple vista compatible con la Shield Grove de Arduino pero no tiene el orden standard GND-Vcc-DATAIN-DATAOUT sino es GND-DATAOUT-DATAIN-VCC o sea GND-Trg-Echo-5V
 
-
 Para sujetar el sensor ultrasonidos al chasis habría que comprar un soporte:
 
 ![](/assets/soporteus.png)
-
-Los dos elementos: Sensor ultrasonidos como el HC-SR04 y el soporte son **muy comunes y muy baratos**
-
-### ATENCIÓN:
-
-El kit de CATEDU no lo proporciona en parte debido a que molesta para el movimiento de la cámara, habría que hacer alguna chapa o algo para adelantar y alejar el sensor de ultrasonidos del brazo de robot.  
 
 Otra opción es quitar la cámara y poner el sensor de ultrasonidos:
 
 ![](/assets/brazous.png)
 
-También por otra razón: la parte didáctica de evitar obstáculos está satisfecho con los sensores de infrarrojos.
+EL KIT DE CATEDU NO PROPORCIONA EL SENSOR ULTRASONIDOS
 
 ### Bueno, si aún así me decido ponerlo ¿cómo se programa?
 
