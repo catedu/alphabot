@@ -16,7 +16,13 @@ En Alphabot se conectaría los cables en el conector blanco de abajo y el ultras
 
 ![](/assets/conexionUS.jpg)
 
-CHAPUZA : Es un conector a simple vista compatible con la Shield Grove de Arduino pero no tiene su [orden standard GND-Vcc-DATA1-DATA2](http://wiki.seeedstudio.com/Grove_System/) sino es GND-DATA1-DATA2-VCC o sea GND-Trg-Echo-5V luego habría que hacer alguna chapucilla de intercambiar cables.
+El sensor de ultrasonidos tiene que estar adaptado a los cables compatibles con la Shield Grove de Arduino. Por ejemplo [este](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html):
+
+![](https://statics3.seeedstudio.com/seeed/img/2016-09/kIyY21sbC6ct7JYzCWf1mAPs.jpg)
+
+CHAPUZA : No tiene su [orden standard GND-Vcc-DATA1-DATA2](http://wiki.seeedstudio.com/Grove_System/) sino es GND-DATA1-DATA2-VCC o sea GND-Trg-Echo-5V luego habría que hacer alguna chapucilla de intercambiar cables, habría que elegir unos cables largos, cortarlos e intercambiarlos:
+
+![](https://statics3.seeedstudio.com/seeed/file/2018-02/bazaar707576_img_5936a.JPG)
 
 Para sujetar el sensor ultrasonidos al chasis habría que comprar un soporte:
 
