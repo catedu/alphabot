@@ -10,6 +10,7 @@
   * [1.6 Vaya programación cutre!](16-vaya-programacion-cutre.md)
   * [1.7 GPIO](gpio.md)
   * [1.8 PWM](pwm.md)
+  * [1.9 Kit de prestamo](19-kit-de-prestamo.md)
 * [2 Movimiento](movimiento.md)
   * [2.1 Motores](2-configuracion-en-python.md)
   * [2.2 Fichero VARIABLES.py](24-fichero-variablespy.md)
@@ -47,9 +48,13 @@
   * [8.3 MJPEG-Streamer](8-camara/84-mjpeg-streamer.md)
   * [8.4 Ver la cámara](8-camara/84-ver-la-camara.md)
 * [9 Bajos del coche](9-bajoscoche.md)
-----
+
+---
+
 * [Grupo Robotica Educativa Aragon](grupo-robotica-educativa-aragon.md)
 * [Muro](muro.md)
-----
+
+---
+
 * [Créditos](creditos.md)
 
