@@ -1,2 +1,2 @@
 #KIT DE PRESTAMO
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRAa_Tbn6qXbGGpZW76CT5iRAxBG9hswKG8yoYamdPez6SHl7k8KnmaWAHI6sep0tLQ3fKUXWr5Tydr/pub?w=955&amp;h=674">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTFmoZXuJ03o1jUavAK-SI8Tb4v5t_WkkkbvYMWF80g37hudpLYPjNx4ABx-cOekkKPXUNaei7aABoH/pub?w=960&amp;h=720">
