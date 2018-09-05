@@ -94,14 +94,20 @@ Y por abajo también:
 
 ![](/assets/PICT0044.JPG)
 
-###Arduino
+###Arduino (opcional)
 Si decidimos conectar un Arduino ahora es el momento:
 
 ![](/assets/PICT0046.JPG)
 
 ##Raspberry
 
-Antes de colocarlo, tenemos que poner el cable de la cámara, levantamos el plástico negro sin arrancarlo:
+Antes de colocarlo:
+
+Pasamos el cable de la cámara por la ranura de la placa del robot para que salga al exterior:
+
+![](/assets/PICT0050.JPG)
+
+Ponemos el cable de la cámara, levantamos el plástico negro sin arrancarlo:
 
 ![](/assets/PICT0047.JPG)
 
@@ -109,11 +115,8 @@ Y colocamos el cable, con el lado azul tal como está en la foto y volvemos a ap
 
 ![](/assets/PICT0049.JPG)
 
-Pasamos el cable por la ranura de la placa del robot para que salga al exterior:
-
-![](/assets/PICT0050.JPG)
-
 Ahora ya podemos colocar la Raspberry en el zócalo de los GPIO:
+_(si además tienes puesto un Arduino, queda el Arduino entre la Raspberry y la placa)._
 
 ![](/assets/PICT0051.JPG)
 
@@ -126,7 +129,7 @@ Esta parte es la más difícil !!!
 
 <iframe src="https://giphy.com/embed/3o7abrH8o4HMgEAV9e" width="480" height="241" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-3o7abrH8o4HMgEAV9e">via GIPHY</a></p>
 
-De momento algo sencillote: Conectar los servos **CABLE MARRÓN A GND**:
+De momento algo sencillote: Conectar los servos **CABLE MARRÓN A GND** pasando los cables por el mismo agujero que están los cables de conexión del sensor de velocidad y el de proximidad:
 
 ![](/assets/PICT0052.JPG)
 
@@ -150,11 +153,11 @@ Atornillamos:
 
 ![](/assets/PICT0058.JPG)
 
-Para el servo de arriba utilizamos un tornillo de punta
+Para el servo de arriba utilizamos un tornillo de punta pequeño:
 
 ![](/assets/PICT0060.JPG)
 
-Lo atornillamos
+Lo atornillamos en los dos lados del servo:
 
 ![](/assets/PICT0061.JPG)
 
