@@ -281,4 +281,4 @@ Acuérdate de poner bien los jumpers amarillos:
 
 Y fin !!
 
-![](http://www.reparacionxpress.com/images/mireforma6.jpg)
+<iframe src="https://giphy.com/embed/3o7TKEP6YngkCKFofC" width="480" height="362" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/tvlandclassic-andy-griffith-the-show-3o7TKEP6YngkCKFofC">via GIPHY</a></p>
