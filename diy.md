@@ -196,11 +196,11 @@ Esto no sé si está en los libros de ingeniería !!
 
 ![](/assets/PICT0070.JPG)
 
-Aún así hay que rebajar un poco más en los lados para que entre bien el brazo del servo blanco, puedes ver en la foto como con el cuchillo se ha rebajado un poco más a los lados para que la pieza blanca esté lo más prieta a la negra:.
+Aún así **hay que rebajar un poco más en los lados** para que entre bien el brazo del servo blanco, puedes ver en la foto como con el cuchillo se ha rebajado un poco más a los lados para que **la pieza blanca esté lo más prieta a la negra**:.
 
 ![](/assets/PICT0072.JPG)
 
-Bien atornillado por la parte reversa:
+Bien atornillado por la parte reversa (_Nota: tendrás que agrandar los agujeros de la pieza blanca, un truco es utilizar un tornillo de punta, atornillarlo y destornillarlo_):
 
 ![](/assets/PICT0071.JPG)
 
@@ -242,11 +242,11 @@ Ahora utilizaremos los tornillos más largos con tuerca que lo utilizaremos de a
 
 ![](/assets/PICT0081.JPG)
 
-Atornillamos los 4 (por eso decíamos que no había que poner los sensores de velocidad aún):
+Atornillamos los 4 (por eso decíamos que no había que poner los sensores de velocidad aún) :
 
 ![](/assets/PICT0082.JPG)
 
-Y ponemos las 4 tuercas por la parte de atras bien prietas:
+Y ponemos las 4 tuercas por la parte de atrás bien prietas _OJO SE NECESITA **MAÑA** abstenerse los que no tengan uñas y dedos gordos_:
 
 ![](/assets/PICT0083.JPG)
 
