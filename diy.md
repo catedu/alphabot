@@ -159,9 +159,12 @@ Para el servo de arriba utilizamos un tornillo de punta pequeño:
 
 Lo atornillamos en los dos lados del servo:
 
-![](/assets/PICT0061.JPG)
+![](/assets/servoarriba-tornillos.JPG)
+
 
 Y lo colocamos con la otra pieza:
+
+![](/assets/PICT0061.JPG)
 
 ![](/assets/PICT0062.JPG)
 
