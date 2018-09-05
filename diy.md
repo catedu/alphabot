@@ -274,7 +274,7 @@ Ponemos las ruedas traseras, las pilas:
 
 ![](/assets/PICT0088.JPG)
 
-Acuérdate de poner bien los jumpers amarillos:
+Acuérdate de poner bien los jumpers amarillos !!:
 
 ![](/assets/2018-06-27 20_37_59-PhotoFiltre.jpg)
 
