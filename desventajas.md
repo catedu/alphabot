@@ -19,7 +19,11 @@ Encontramos algunas, por ejemplo:
 
 * **Las pilas son especiales** tipo 18650 no son las "_normales AA o AAA_" pero proporcionan 3.7V y más de 1.000mAh cada una lo que asegura la alimentación del robot+raspberry de forma autónoma. Se pueden encontrar en tiendas online por 10€ con cargador incluido. (ojo,hay dos versiones, elegir la de 65mm). 
  * Encima para complicar las cosas, hay algunas que [son falsas.](http://bateriasdelitio.net/?p=130)
-  * **OJO ESTAS PILAS SON PELIGROSAS SI SE CORTOCIRCUITAN O NO SE RESPETA LA POLARIDAD, PUEDEN LLEGAR INCLUSO A EXPLOTAR**. Algunas están protegidas, pero lo normal es que no. [Aquí para ver si la pila es protegida o no](http://bateriasdelitio.net/?p=54#comment-4946).
+  * **OJO ESTAS PILAS SON PELIGROSAS SI SE CORTOCIRCUITAN O NO SE RESPETA LA POLARIDAD, PUEDEN LLEGAR INCLUSO A EXPLOTAR**. Y para complicarlo, no se ve bien (los símbolos + y - de las 18650 soy muy pequeños y en Alphabot hay una contradicción, los símbolos de fuera no coinciden con los símbolos grabados en el portapilas ¿cuales son los verdaderos? los de fuera. Para que quede claro aquí tienes un dibujo:
+  
+  <img src="https://docs.google.com/drawings/d/e/2PACX-1vRohvDwF0pU1U4lUsz1XwIMpKI-w5jyAZIqXnVtFmzO-Cce0hJ2K-ZBXyyHd9aowTVnxidDww4IgeQv/pub?w=996&amp;h=849">
+  
+  * Algunas están protegidas, pero lo normal es que no. [Aquí para ver si la pila es protegida o no](http://bateriasdelitio.net/?p=54#comment-4946).
  * _Curiosamente estas baterías forman parte de las baterías de los portátiles, pero manipularlas tiene riesgos [ver](https://bricolabs.cc/wiki/guias/reciclando_baterias_de_portatil_recuperando_baterias_18650)_
 
 ![](/assets/pila.png)
