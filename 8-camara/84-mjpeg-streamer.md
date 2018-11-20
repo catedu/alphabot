@@ -1,5 +1,5 @@
 #MJPEG-Streamer
-Es una aplicación que simplemente captura imágenes (frames) en JPEG y transmitirlas vía HTTP.
+Es una aplicación que simplemente captura imágenes (frames) en JPEG y transmitirlas vía HTTP. [Su página oficial de instalación.](https://snapcraft.io/mjpg-streamer)
 ##Instalación desde GitHub
 Actualmente está un poco parado el proyecto,tal y como dice [aquí](https://sourceforge.net/p/mjpg-streamer/wiki/Home/) pero se puede instalar desde este Github que sigue vivo y que tiene las instrucciones para su instalación.
 https://github.com/jacksonliam/mjpg-streamer
