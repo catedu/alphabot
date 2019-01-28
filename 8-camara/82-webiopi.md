@@ -5,7 +5,7 @@ El proyecto está respaldado por Google y necesita Raspbian y Python 2.7 o 3.2.
 
 ## Instalación desde comandos
 
-Abrimos un terminal SSH \([ya lo hemos visto cómo se hace](https://catedu.gitbooks.io/raspberry-muy-basico/content/5-ssh.html)\) y tecleamos los siguientes comandos:
+Abrimos un terminal SSH \([ya lo hemos visto cómo se hace](https://catedu.gitbooks.io/raspberry-muy-basico/content/5-ssh.html)\) y tecleamos los siguientes comandos (_en la penúltima instrucción ten paciencia, tarda un rato en ejecutar el parche_) :
 
 > cd /home/pi
 >
