@@ -6,7 +6,8 @@ Lo primero que tienes que hacer es activar la cámara y Remote GPIO
 ![](/assets/configuracionRaspberry.jpg)
 
 Si estás utilizando la Raspberry pero no de forma gráfica con VNC sino textual con SSH el comando a utilizar es 
-**sudo raspi-config**
+>**sudo raspi-config**
+
 entra en la opción 5
 
 ![](/assets/2019-01-30 07_31_50-pi@raspberrypi_ ~.jpg)
