@@ -40,7 +40,7 @@ Para anulara la anterior instrucción \(o sea que WebIOPi NO se inicie automáti
 
 ## Acceso
 
-Entra en un navegador de tu ordenador y teclea la IP de tu Raspberry y añade :8000, por ejemplo [http://192.168.1.25:8000](http://192.168.1.25:8000)
+Entra en un navegador de tu ordenador y teclea la IP de tu Raspberry y añade :8000, por ejemplo, si la raspberry tiene la dirección 195.168.1.25 entra en [http://192.168.1.25:8000](http://192.168.1.25:8000)
 
 > Ya sabes la IP de tu Raspberry, es la que configurastes en interfaces, [lo vimos aquí](https://catedu.gitbooks.io/raspberry-muy-basico/content/4-primera-comunicacion.html)
 
