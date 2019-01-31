@@ -48,6 +48,7 @@
   * [8.3 WebIOPi](8-camara/82-webiopi.md)
   * [8.4 MJPEG-Streamer](8-camara/84-mjpeg-streamer.md)
   * [8.5 Ver la cámara](8-camara/84-ver-la-camara.md)
+  * [MOTION](8-camara/motion.md)
 * [9 Bajos del coche](9-bajoscoche.md)
 
 ---
