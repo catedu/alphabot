@@ -1,10 +1,14 @@
 #MJPEG-Streamer
 Es una aplicación que simplemente captura imágenes (frames) en JPEG y transmitirlas vía HTTP. [Su página oficial de instalación.](https://snapcraft.io/mjpg-streamer)
-##Instalación desde GitHub
-Actualmente está un poco parado el proyecto,tal y como dice [aquí](https://sourceforge.net/p/mjpg-streamer/wiki/Home/) pero se puede instalar desde este Github que sigue vivo y que tiene las instrucciones para su instalación.
+##Opción A Instalación desde repositorios
+
+* Actualmente está un poco parado el proyecto, tal y como dice [aquí](https://sourceforge.net/p/mjpg-streamer/wiki/Home/), pero se puede instalar desde este respositorio Github que sigue vivo y que tiene las instrucciones para su instalación: 
 https://github.com/jacksonliam/mjpg-streamer
-##Instalación desde Waveshare
-Tiene algunos pasos algo complejos:
+* En este [tutorial  ](https://geekytheory.com/video-streaming-live-con-raspberrypi-y-playstation-eye) **está muy bien hecho y explica todo paso a paso su instalación**, pero no utiliza un repositorio oficial.
+
+
+##Opción B Instalación desde Waveshare
+Desde la página oficial de Alphabot tiene también el software y su guia de instalación, tiene algunos pasos algo complejos, yo lo hice y doy fe que funcionó:
 
 **1.- Añadimos la siguiente línea en el archivo modules que está en la carpeta etc**
 >bcm2835-v4l2 
@@ -41,10 +45,12 @@ Se descargará un fichero comprimido que lo descomprimiremos, y lo llevaremos a 
 ![](/assets/mjpeg2.jpg)
 
 **6.-Compilamos la librería:**
->make USE_LIBV4L2=true clear all
+>make USE_LIBV4L2=true clean all
+sudo make install
 
 Si sale bien, saldrá el mensaje : _ No rule to make target 'clear'. Stop._ .
 Si sale mal, tienes que entrar en el fichero que está en _mjpg-streamer/plugins/input_uvc/input_uvc.c_ y cambiar donde pone V4L2_PIX_FMT_MJPEG por V4L2_PIX_FMT_YUYV 
+
 
 
 
