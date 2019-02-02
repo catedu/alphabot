@@ -17,6 +17,8 @@ Entramos en Stream y tachán !!!
 
 ![](/assets/mjpeg5.jpg)
 
+Si sólo quieres ver la cámara http://ip_de_la_rasberry:8080/?action=stream.
+
 #####¿Problemas?
 * Funciona la página MJPG-Streamer pero la cámara no se ve: 
 En esta [página ](https://www.raspberrypi.org/forums/viewtopic.php?t=100818)encontré la solución.
