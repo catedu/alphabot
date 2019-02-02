@@ -1,11 +1,21 @@
-# WebIOPi
+# 8.3 WebIOPi
 
 No sólo sirve para ver la cámara, sino también permite controlar relés, sensores, mortores.. contectados a los GPIO de la Raspberry y monitorizarlos a través de una página web. Para esto, os recomendamos los ejemplos de la librería Python en /home/pi/webiopi/examples cuando lo tengas instalado.  
-El proyecto está respaldado por Google y necesita Raspbian y Python 2.7 o 3.2.
+* El proyecto está respaldado por Google y necesita Raspbian y Python 2.7 o 3.2.
+* Actualmente está la versión **0.7.1** luego utilizaremos en este tutorial estos números, pero si ves que a la hora de descargarte el software ha cambiado su versión, cambia pues los números anteriores.
 
->Recomendamos visitar su página oficial http://webiopi.trouch.com/ ahí encontrarás tutoriales, instalación, soporte...
 
-## Instalación desde comandos
+## 8.3.1 Instalación 
+#### 8.3.1.1 Opción A instalación desde la página oficial
+
+En su página oficial http://webiopi.trouch.com/ encontrarás tutoriales, instalación, soporte... para su instalación hay que seguir estos pasos:
+
+1. Descarga el software http://webiopi.trouch.com/DOWNLOADS.html lo descomprimes y llevas la carpeta a la Raspberry ¿cómo? 
+    1. Pues desde la Raspberry navegas, descargas, abres la carpeta de descargas y con el botón derecho descomprimes o abres la terminal con el comando **tar xvzf WebIOPi-0.7.1.tar.gz**.
+    1. Otra opción más sencilla es descargarlo desde tu ordenador principal, descomprimirlo y copiar la carpeta a la Raspberry, ya sabes cómo o ¿[es que no te has leído esto](https://catedu.gitbooks.io/raspberry-muy-basico/content/9-transferencia-ficheros.html)?
+1. Abre la carpeta en terminal (si estas en un entorno gráfico, con el botón derecho, abrir en terminal, si estás en un entorno texto SSH con cd WebIOPi-0.7.1) y ejecutamos la instrucción **sudo ./setup.sh**
+
+#### 8.3.1.2  Opción B Instalación desde comandos
 
 Abrimos un terminal SSH \([ya lo hemos visto cómo se hace](https://catedu.gitbooks.io/raspberry-muy-basico/content/5-ssh.html)\) y tecleamos los siguientes comandos (_en la penúltima instrucción ten paciencia, tarda un rato en ejecutar el parche_) :
 
@@ -22,7 +32,7 @@ Abrimos un terminal SSH \([ya lo hemos visto cómo se hace](https://catedu.gitbo
 >
 > sudo ./setup.sh
 
-## Arrancar el servicio WebIOPi.
+## 8.3.2 Arrancar el servicio WebIOPi.
 
 Puedes arrancar y parar el servicio WebIOPi con los comandos:
 
