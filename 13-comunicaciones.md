@@ -17,4 +17,9 @@ UNA VEZ REALIZADO ESTOS PASOS YA PODEMOS PASAR A REALIZAR NUESTRO PRIMER PROGRAM
 >cd ~/AlphaBot/  
 >sudo python miprograma.py 
 
+##Curiosidad ¿se puede hacer desde Internet?
+Totos estos pasos se entiende que lo haces desde **LA RED LOCAL** accediendo a la Raspberry por una IP fija tal y como hemos explicado pero también lo podemos hacer desde Internet [siguiendo estos pasos](https://catedu.gitbooks.io/raspberry-muy-basico/content/11-conectando-desde-internet.html).
+
+O sea: ¿que puedo manejar mi Alphabot desde cualquier lugar del mundo? Si
+
 
