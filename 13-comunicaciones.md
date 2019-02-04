@@ -22,4 +22,5 @@ Totos estos pasos se entiende que lo haces desde **LA RED LOCAL** accediendo a l
 
 O sea: ¿que puedo manejar mi Alphabot desde cualquier lugar del mundo? Si
 
+<iframe src="https://giphy.com/embed/3o7TKME5YAAn6LKQjm" width="480" height="338" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/southparkgifs-3o7TKME5YAAn6LKQjm">via GIPHY</a></p>
 
