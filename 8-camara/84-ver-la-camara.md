@@ -23,5 +23,10 @@ Si sólo quieres ver la cámara http://ip_de_la_rasberry:8080/?action=stream.
 * Funciona la página MJPG-Streamer pero la cámara no se ve: 
 En esta [página ](https://www.raspberrypi.org/forums/viewtopic.php?t=100818)encontré la solución.
 
+###Truco
+Instálate [VLC](https://www.videolan.org) y copia la dirección que sale en la página VideoLAN en VLC-Medio-Abrir ubicación de red ... - red y pega esa dirección
+
+![](/assets/mjpgporvlc.jpg)
+
 
 
