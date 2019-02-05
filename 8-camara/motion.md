@@ -17,7 +17,7 @@ Si has instalado el servicio SSH y VNC tal y como dice [aquí](https://catedu.gi
 
 >sudo weavedinstaller
 
-Nos aparecerá un menú, elegiremos la opción 1 (aunque las otras también podrían valer pero lo más fácil es registrarse online tal y como hemos visto en 11.1 Remote.it y utilizar ese usuario y contraseña con la opción 1):
+Nos aparecerá un menú, elegiremos la opción 1 (aunque las otras también podrían valer pero lo más fácil es registrarse online tal y como hemos visto [aquí](https://catedu.gitbooks.io/raspberry-muy-basico/content/11-conectando-desde-internet/111-remoteit.html) y utilizar ese usuario y contraseña con la opción 1):
 
 ![](http://forum.weaved.com/uploads/default/original/1X/415af66ac614261c254f11b540f0dd34297998f3.png)
 
@@ -41,7 +41,7 @@ Entramos en [remote.it](http://remote.it) nos logueamos y entramos en el servici
 
 ![](/assets/webpiop-remoteit.jpg)
 
-OJO nos pedirá un usuario y contraseña, no es la de la Raspberry, sino la del servicio Wepiopi que si no te acuerdas, por defecto era webiopi y contraseña raspberry
+OJO nos pedirá un usuario y contraseña, no es la de la Raspberry, sino la del servicio Wepiopi que si te acuerdas [cuando lo vimos](/8-camara/82-webiopi.md), por defecto era webiopi y contraseña raspberry
 
 ![](/assets/webiopi-remoteit2.jpg)
 
