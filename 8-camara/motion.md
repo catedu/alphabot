@@ -65,7 +65,7 @@ Y por comandos entramos en la carpeta donde tenemos instalado mjpg-stramer y tec
 
 UNA VEZ ARRANCADO **NO QUITAMOS LA VENTANA** dejamos el servicio corriendo
 
-Entramos en [remote.it](http://remote.it) nos logueamos y entramos en el servicio pero ahora el que has creado tipo http con puerto 8080, ASI DE FACIL automáticamente saltará a la página
+Entramos en [remote.it](http://remote.it) nos logueamos y entramos en el servicio pero ahora el que has creado tipo http con puerto 8080, ASI DE FACIL automáticamente saltará a la página exáctamente igual que en [8.5 Ver la cámara](/8-camara/84-ver-la-camara.md) pero en vez de por red local, desde cualquier parte del mundo !
 
 ![](/assets/mjpg-stramer-remoteit.jpg)
 
