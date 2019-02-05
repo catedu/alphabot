@@ -13,9 +13,9 @@ Todos los pasos están explicados en [este enlace](https://catedu.gitbooks.io/ra
 
 Al manejar nuestra Raspberry por VNC y/o SSH desde Internet, podemos controlar nuestro Alphabot desde cualquier lugar del mundo !!! ¡¡no es alucinante !!
 
-Vale, vale, ya veo que no es para tanto..
-
 <iframe src="https://giphy.com/embed/rWzfEEku6SovK" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rWzfEEku6SovK">via GIPHY</a></p>
+
+Vale, vale, ya veo que no es para tanto...
 
 ##8.6.2 Instalar el servicio HTTP puerto 8000 para ver WebIOPi
 
