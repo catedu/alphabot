@@ -55,7 +55,7 @@ Y si te lo preguntas: **Sí**, podemos tener los dos a la vez instalados
 
 Aquí hay que hacer un paso previo ARRANCAR EL SERVICIO MJPG-Streamer
 
-Para ello entramos SSH de forma remota, eso ya lo has visto aquí
+Para ello entramos SSH de forma remota, [eso ya lo has visto aquí](https://catedu.gitbooks.io/raspberry-muy-basico/content/11-conectando-desde-internet/113-ssh-y-vnc-desde-internet.html)
 
 Y por comandos entramos en la carpeta donde tenemos instalado mjpg-stramer y tecleamos 
 
