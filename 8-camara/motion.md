@@ -63,9 +63,9 @@ Y por comandos entramos en la carpeta donde tenemos instalado mjpg-stramer y tec
 
 ![](/assets/start-sh.jpg)
 
-UNA VEZ ARRANCADO NO QUITAMOS LA VENTANA dejamos el servicio corriendo
+UNA VEZ ARRANCADO **NO QUITAMOS LA VENTANA** dejamos el servicio corriendo
 
-Entramos en [remote.it](http://remote.it) nos logueamos y entramos en el serviciom pero ahora el que has creado tipo http con puerto 8080, ASI DE FACIL automáticamente saltará a la página
+Entramos en [remote.it](http://remote.it) nos logueamos y entramos en el servicio pero ahora el que has creado tipo http con puerto 8080, ASI DE FACIL automáticamente saltará a la página
 
 ![](/assets/mjpg-stramer-remoteit.jpg)
 
