@@ -18,5 +18,5 @@
 * Ordenador
 * Alphabot con raspberry
 
-
+{% include "git+https://github.com/catedu/robotica.git/README.md" %}
 
