@@ -4,7 +4,11 @@ Este robot es delicado y difícil de montar, intentamos  con este manual ayudart
 
 ![](/assets/2018-06-30 07_45_40-Documento1 - Microsoft Word.png)
 
-_Nomenclatura:_
+Pero te queremos animar:
+
+<iframe src="https://giphy.com/embed/xjUGCnG53aCBbfokdS" width="480" height="337" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/maker-gallina-xjUGCnG53aCBbfokdS">via GIPHY</a></p>
+
+##Nomenclatura:
 * Parte delantera: La que tiene la cámara. 
 * Parte trasera la que tiene el siguelíneas.
 
