@@ -22,7 +22,7 @@ Realmente el control de un servo se hace con una modulación PWM que ya hemos vi
 import RPi.GPIO as GPIO
 import time
 
-import * from VARIABLES
+from VARIABLES import *
 
 servox = GPIO.PWM(SERVOEJEX,40)
 servoz = GPIO.PWM(SERVOEJEZ,40)
@@ -36,5 +36,5 @@ def ANGULO(angle,x):
         servoz.ChangeDutyCycle(2.5 + 10.0 * angle / 180)
 ```
 
-
+>Nota: Los servos tiemblan algo, es normal, no pienses que un robot barato esté bien calibrado.
 
