@@ -2,9 +2,9 @@
 ###¿Qué es?
 Para entender el funcionamiento de los motores, primero tenemos que hablar de esta señal especial.
 
-La RASPBERRY igual que el ARDUINO ([ver cap 2.4 curso Arduino](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/un_caso_especial_seales_pwm.html)) no es capaz de generar señales ANALÓGICAS. Un truco es generar una señal cuadrada de pulsación variable PWM (Pulse Width Modulation, Modulación de Ancho de Pulso) de esta forma "simula" una señal analógica.
+La RASPBERRY igual que el ARDUINO ([ver cap 2.4 curso Arduino](https://catedu.github.io/programa-arduino-mediante-codigo/un_caso_especial_seales_pwm.html)) no es capaz de generar señales ANALÓGICAS. Un truco es generar una señal cuadrada de pulsación variable PWM (Pulse Width Modulation, Modulación de Ancho de Pulso) de esta forma "simula" una señal analógica.
 
-![](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/img/Captura_de_pantalla_2015-05-19_a_las_14.18.40.png)
+![](https://catedu.github.io/programa-arduino-mediante-codigo/img/Captura_de_pantalla_2015-05-19_a_las_14.18.40.png)
 
 ##¿Cómo se genera utilizando PYTHON y los pines GPIO?
 

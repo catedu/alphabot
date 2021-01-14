@@ -2,13 +2,13 @@
 
 ## GPIO
 
-Vamos a recordar lo que vimos [aquí](https://catedu.gitbooks.io/raspberry-muy-basico/content/2-gpio.html), dos cosas:
+Vamos a recordar lo que vimos [aquí](https://catedu.github.io/raspberry-muy-basico/2-gpio.html), dos cosas:
 
 * Estos son los pines GPIO con la numeración BCM:
 
 ![](https://docs.microsoft.com/en-us/windows/iot-core/media/pinmappingsrpi/rp2_pinout.png)
 
-* Y sobre todo  **RECUERDA** : Están diseñados para 3.3V sólo proporcionan 3mA cada pin luego NO conectes diréctamente componentes de 5V ni  que consuman más corriente o de lo contrario ESTROPEARÁS LA RASPBERRY DE FORMA IRREVERSIBLE, o sea, directamente sólo LEDs con una resistencia de mínimo 1.1K tal [y como vimos aqui](https://catedu.gitbooks.io/raspberry-muy-basico/content/2-gpio.html), todo lo demás a través de chips drivers. 
+* Y sobre todo  **RECUERDA** : Están diseñados para 3.3V sólo proporcionan 3mA cada pin luego NO conectes diréctamente componentes de 5V ni  que consuman más corriente o de lo contrario ESTROPEARÁS LA RASPBERRY DE FORMA IRREVERSIBLE, o sea, directamente sólo LEDs con una resistencia de mínimo 1.1K tal [y como vimos aqui](https://catedu.github.io/raspberry-muy-basico/2-gpio.html), todo lo demás a través de chips drivers. 
 
 ## Librería RPI.GPIO
 

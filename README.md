@@ -9,8 +9,8 @@
 
 ### Requisitos conocimientos
 
-* Los expuestos en el [**Curso Python básico**](https://catedu.gitbooks.io/introduccion-a-python/content/). 
-* Los expuestos en [**RASPBERRY MUY BÁSICO**](https://catedu.gitbooks.io/raspberry-muy-basico/content/) donde aprenderás a:
+* Los expuestos en el [**Curso Python básico**](https://catedu.github.io/introduccion-a-python/). 
+* Los expuestos en [**RASPBERRY MUY BÁSICO**](https://catedu.github.io/raspberry-muy-basico/) donde aprenderás a:
 * instalar el sistema operativo
 * comunicarte con la Raspberry
   ### Requisitos materiales

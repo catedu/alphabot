@@ -2,7 +2,7 @@
 
 ![](/assets/servo.jpg)
 
-Los servos son motores con una reductora, un sensor de posición y un circuito de control del ángulo de giro. Para saber más de servos te recomendamos el [capítulo de servomotores del curso de Arduino de Aularagón.](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/control_de_servomotores.html).
+Los servos son motores con una reductora, un sensor de posición y un circuito de control del ángulo de giro. Para saber más de servos te recomendamos el [capítulo de servomotores del curso de Arduino de Aularagón.](https://catedu.github.io/programa-arduino-mediante-codigo/control_de_servomotores.html).
 
 Tiene 3 cables:
 * Marrón a GND

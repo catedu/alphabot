@@ -12,12 +12,12 @@ En su página oficial http://webiopi.trouch.com/ encontrarás tutoriales, instal
 
 1. Descarga el software http://webiopi.trouch.com/DOWNLOADS.html lo descomprimes y llevas la carpeta a la Raspberry ¿cómo? 
     1. Pues desde la Raspberry navegas, descargas, abres la carpeta de descargas y con el botón derecho descomprimes o abres la terminal con el comando **tar xvzf WebIOPi-0.7.1.tar.gz**.
-    1. Otra opción más sencilla es descargarlo desde tu ordenador principal, descomprimirlo y copiar la carpeta a la Raspberry, ya sabes cómo o ¿[es que no te has leído esto](https://catedu.gitbooks.io/raspberry-muy-basico/content/9-transferencia-ficheros.html)?
+    1. Otra opción más sencilla es descargarlo desde tu ordenador principal, descomprimirlo y copiar la carpeta a la Raspberry, ya sabes cómo o ¿[es que no te has leído esto](https://catedu.github.io/raspberry-muy-basico/9-transferencia-ficheros.html)?
 1. Abre la carpeta en terminal (si estas en un entorno gráfico, con el botón derecho, abrir en terminal, si estás en un entorno texto SSH con cd WebIOPi-0.7.1) y ejecutamos la instrucción **sudo ./setup.sh**
 
 #### 8.3.1.2  Opción B Instalación desde comandos
 
-Abrimos un terminal SSH \([ya lo hemos visto cómo se hace](https://catedu.gitbooks.io/raspberry-muy-basico/content/5-ssh.html)\) y tecleamos los siguientes comandos (_en la penúltima instrucción ten paciencia, tarda un rato en ejecutar el parche_) :
+Abrimos un terminal SSH \([ya lo hemos visto cómo se hace](https://catedu.github.io/raspberry-muy-basico/5-ssh.html)\) y tecleamos los siguientes comandos (_en la penúltima instrucción ten paciencia, tarda un rato en ejecutar el parche_) :
 
 > cd /home/pi
 >
@@ -52,7 +52,7 @@ Para anulara la anterior instrucción \(o sea que WebIOPi NO se inicie automáti
 
 Entra en un navegador de tu ordenador y teclea la IP de tu Raspberry y añade :8000, por ejemplo, si la raspberry tiene la dirección 195.168.1.25 entra en [http://192.168.1.25:8000](http://192.168.1.25:8000)
 
-> Ya sabes la IP de tu Raspberry, es la que configurastes en interfaces, [lo vimos aquí](https://catedu.gitbooks.io/raspberry-muy-basico/content/4-primera-comunicacion.html)
+> Ya sabes la IP de tu Raspberry, es la que configurastes en interfaces, [lo vimos aquí](https://catedu.github.io/raspberry-muy-basico/4-primera-comunicacion.html)
 
 ATENCIÓN El usuario es **webiopi** y la contraseña **raspberry**. Para cambiar la clave hay que teclear:
 

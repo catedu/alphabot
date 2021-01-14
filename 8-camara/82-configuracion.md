@@ -1,7 +1,7 @@
 #Configuración
 Lo primero que tienes que hacer es activar la cámara y Remote GPIO
 
->¿Recuerdas? [En el capítulo 8.1 de Raspberry básico ](https://catedu.gitbooks.io/raspberry-muy-basico/content/8-vnc/81-vnc-server.html) ya activamos **VNC Server y SSH**, ahí también están la opciones de **activar la cámara y Remote GPIO**.
+>¿Recuerdas? [En el capítulo 8.1 de Raspberry básico ](https://catedu.github.io/raspberry-muy-basico/8-vnc/81-vnc-server.html) ya activamos **VNC Server y SSH**, ahí también están la opciones de **activar la cámara y Remote GPIO**.
 
 ![](/assets/configuracionRaspberry.jpg)
 

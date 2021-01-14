@@ -9,7 +9,7 @@ Tenemos que realizar los siguientes pasos:
 1. Instalar el servicio VNC
 1. Acceder a nuestra Raspberry por SSH y VNC desde Internet
 
-Todos los pasos están explicados en [este enlace](https://catedu.gitbooks.io/raspberry-muy-basico/content/11-conectando-desde-internet.html). 
+Todos los pasos están explicados en [este enlace](https://catedu.github.io/raspberry-muy-basico/11-conectando-desde-internet.html). 
 
 Al manejar nuestra Raspberry por VNC y/o SSH desde Internet, podemos controlar nuestro Alphabot desde cualquier lugar del mundo !!! ¡¡no es alucinante !!
 
@@ -19,21 +19,21 @@ Vale, vale, ya veo que no es para tanto...
 
 ##8.6.2 Instalar el servicio HTTP puerto 8000 para ver WebIOPi
 
-Si has instalado el servicio SSH y VNC tal y como dice [aquí](https://catedu.gitbooks.io/raspberry-muy-basico/content/11-conectando-desde-internet/112-instalar-remoteit-en-la-raspberry.html), encontes tienes intalado en la Raspberry weavedconnectd por lo tanto , lo que tenemos que hacer es ejecutarlo:
+Si has instalado el servicio SSH y VNC tal y como dice [aquí](https://catedu.github.io/raspberry-muy-basico/11-conectando-desde-internet/112-instalar-remoteit-en-la-raspberry.html), encontes tienes intalado en la Raspberry weavedconnectd por lo tanto , lo que tenemos que hacer es ejecutarlo:
 
 >sudo weavedinstaller
 
-Nos aparecerá un menú, elegiremos la opción 1 (aunque las otras también podrían valer pero lo más fácil es registrarse online tal y como hemos visto [aquí](https://catedu.gitbooks.io/raspberry-muy-basico/content/11-conectando-desde-internet/111-remoteit.html) y utilizar ese usuario y contraseña con la opción 1):
+Nos aparecerá un menú, elegiremos la opción 1 (aunque las otras también podrían valer pero lo más fácil es registrarse online tal y como hemos visto [aquí](https://catedu.github.io/raspberry-muy-basico/11-conectando-desde-internet/111-remoteit.html) y utilizar ese usuario y contraseña con la opción 1):
 
 ![](http://forum.weaved.com/uploads/default/original/1X/415af66ac614261c254f11b540f0dd34297998f3.png)
 
 Aparecerá este menú
 
-![](https://catedu.gitbooks.io/raspberry-muy-basico/content/assets/pi@raspberrypi_%20~.jpg)
+![](https://catedu.github.io/raspberry-muy-basico/assets/pi@raspberrypi_%20~.jpg)
 
 Elegimos la opción 1 y del siguiente menú
 
-![](https://catedu.gitbooks.io/raspberry-muy-basico/content/assets/otromenu.jpg)
+![](https://catedu.github.io/raspberry-muy-basico/assets/otromenu.jpg)
 
 La opción 2 pero por defecto te pondrá el puerto 80, **cambialo al puerto 8000** 
 
@@ -61,7 +61,7 @@ Y si te lo preguntas: **Sí**, podemos tener los dos a la vez instalados
 
 Aquí hay que hacer un paso previo ARRANCAR EL SERVICIO MJPG-Streamer
 
-Para ello entramos SSH de forma remota, [eso ya lo has visto aquí](https://catedu.gitbooks.io/raspberry-muy-basico/content/11-conectando-desde-internet/113-ssh-y-vnc-desde-internet.html)
+Para ello entramos SSH de forma remota, [eso ya lo has visto aquí](https://catedu.github.io/raspberry-muy-basico/11-conectando-desde-internet/113-ssh-y-vnc-desde-internet.html)
 
 Y por comandos entramos en la carpeta donde tenemos instalado mjpg-stramer y tecleamos 
 

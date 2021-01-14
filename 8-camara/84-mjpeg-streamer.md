@@ -38,7 +38,7 @@ En la página https://www.waveshare.com/wiki/AlphaBot tienes Software demo y tam
 
 ![](/assets/descargawiki.jpg)
 
-Se descargará un fichero comprimido que lo descomprimiremos, y lo llevaremos a la Raspberry  ¿no sabes cómo? es porque no leístes [esto](https://catedu.gitbooks.io/raspberry-muy-basico/content/9-transferencia-ficheros.html).
+Se descargará un fichero comprimido que lo descomprimiremos, y lo llevaremos a la Raspberry  ¿no sabes cómo? es porque no leístes [esto](https://catedu.github.io/raspberry-muy-basico/9-transferencia-ficheros.html).
 
 **5.-Entrar en el directorio donde esta mjpeg-streamer, abrimos una terminal con el botón derecho en esa carpeta:**
 

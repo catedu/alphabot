@@ -9,7 +9,7 @@ En la figura puedes ver que simplemente cambiando los jumpers amarillos de lugar
 ###Opción Arduino 
 Para trabajar con el Arduino tiene **un interruptor UART SWITCH** que permite establecer una comunicación serie entre Raspberry y Arduino.
 Para trabajar con el Arduino sólo tiene en la parte trasera dos conectorres:
-* 11=Conexión por UART para poner un módulo Bluetooth por ejemplo un JY-MCU HC-06 ¿Qué es eso? [mira aquí](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/mdulo_bluetooth.html)
+* 11=Conexión por UART para poner un módulo Bluetooth por ejemplo un JY-MCU HC-06 ¿Qué es eso? [mira aquí](https://catedu.github.io/programa-arduino-mediante-codigo/mdulo_bluetooth.html)
 * 12=Una interface SPI para conectar un módulo wifi NRF24L01
 
 ![](/assets/uart.jpg)
