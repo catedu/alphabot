@@ -1,6 +1,0 @@
-#¿Dónde conseguimos estos programas?
-
-
-
-
-
