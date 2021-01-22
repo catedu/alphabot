@@ -5,7 +5,7 @@ Lo primero que tienes que hacer es activar la cámara y Remote GPIO
 
 ![](/assets/configuracionRaspberry.jpg)
 
-Si estás utilizando la Raspberry pero no de forma gráfica con VNC sino textual con SSH el comando a utilizar es 
+Si estás utilizando la Raspberry pero no de forma gráfica con VNC sino textual con SSH el comando a utilizar es
 >**sudo raspi-config**
 
 entra en la opción 5
@@ -15,7 +15,3 @@ entra en la opción 5
 Y activas la cámara y Remote SSH en las opciones P1 y P8 :
 
 ![](/assets/2019-01-30 07_32_26-pi@raspberrypi_ ~.jpg)
-
->Si no activas Remote GPIO te saldrá un error tipo ERR_CONTENT_LENGTH_MISMATCH cuando quieras ver WebIOPi
-
-

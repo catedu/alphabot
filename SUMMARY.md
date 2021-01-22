@@ -45,10 +45,7 @@
 * [8 Cámara](8-camara.md)
   * [8.1 ¿Qué vamos a hacer?](8-camara/81-que-vamos-a-hacer.md)
   * [8.2 Configuracion](8-camara/82-configuracion.md)
-  * [8.3 WebIOPi](8-camara/82-webiopi.md)
-  * [8.4 MJPEG-Streamer](8-camara/84-mjpeg-streamer.md)
-  * [8.5 Ver la cámara](8-camara/84-ver-la-camara.md)
-  * [8.6 Desde Internet](8-camara/motion.md)
+  * [8.3 Motion](8-camara/83-Motion.md)
 * [9 Bajos del coche](9-bajoscoche.md)
 
 ---
@@ -59,4 +56,3 @@
 ---
 
 * [Créditos](creditos.md)
-
