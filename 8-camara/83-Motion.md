@@ -19,7 +19,7 @@ Instalamos MOTION :
 
 **sudo apt-get install motion**
 
-Editamos el fichero de configuración con el editor nano
+Editamos el fichero de configuración motion.conf con el editor nano
 
 **sudo nano /etc/motion/motion.conf**
 
@@ -32,7 +32,9 @@ Buscamos estas líneas y las modificamos :
 * Si vemos daemon off lo cambiamos por
   * **daemon on**
 
-Si estuvieran estas líneas webcam_localhost on y webcam_port 8080 las borramos, o mejor las dejamos como comentarios poniendo delante uno # así #webcam_localhost on #webcam_port 8080
+Si estuvieran estas líneas webcam_localhost on y webcam_port 8080 las borramos, o mejor las dejamos como comentarios poniendo delante uno # así #webcam_localhost on #webcam_port 8080.
+
+En esta [página](https://raspberryparatorpes.net/instalacion/conectar-una-webcam-con-motion-en-raspberry-pi/) podemos ver otra configuración de motion.conf.
 
 Grabamos el fichero, pulsando Ctrl+X se sale pero preguntará si queremos grabar el fichero con el mismo nombre, le decimos que sí
 
@@ -42,16 +44,24 @@ Finalmente ejecutamos motion con esta orden
 
 Con motion simplemente también valdría
 
-## Cómo se ve
+## ¿Cómo se ve desde la red local?
 
 Pues abrimos un navegador y ponemos la dirección a través del puerto que le hemos dicho en stream_port o sea 8081
 
 http://---LA-DIRECCION-DE-LA-RASPBERRY--:8081
 
-es decir si la dirección es 192.168.1.25 entonces tecleamos
+es decir si la dirección es 192.168.1.25 entonces tecleamos http://192.168.1.25:8081
 
-o http://192.168.1.25:8081
+Si queremos un protocolo seguro https mirar esta [página](https://raspberrypi.stackexchange.com/questions/107868/motion-security/107872#107872)
 
-Si estamos en VNC remotamente podemos abrir el navegador de la misma Raspberry y la IP de él mismo es 127.0.0.1 luego abrir
+## ¿Cómo se ve desde Internet?
+
+Tienes que acceder a la Raspberry desde Internet con VNC mira estos [apuntes](https://catedu.github.io/raspberry-muy-basico/11-conectando-desde-internet.html)
+
+Una vez accedido por VNC remotamente podemos abrir el navegador de la misma Raspberry y la IP de él mismo es 127.0.0.1 luego abrir
 
 http://127.0.0.1:8081
+
+ojo en el navegador de la Raspberry no en tu ordenador.
+
+>Nota: Antes Remote.it tenía el servicio HTTP y se podía utilizar tu navegador, ahora este servicio no lo ofrecen, sólo SSH y VNC por lo que no sé otro método.
