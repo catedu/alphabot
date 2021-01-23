@@ -1,6 +1,6 @@
 # MOTION
 
-Esta librería open-source está pensado para utilizar sistemas de alarma con la Raspberry, se pueden encontrar proyectos interesantes como :
+Esta librería open-source muy utilizado en sistemas de alarma con la Raspberry (🤔🤔🤔🤔 hacer un sistema de videovigilancia📹 de mi casa 🏠a distanci📡 y monitorizar 📺 por muy bajo coste... 🤔 ), se pueden encontrar proyectos interesantes como :
 
 * [Que grabe en un vídeo cuando detecta un movimiento](https://projects.raspberrypi.org/en/projects/parent-detector)
 * [Que nos envíe un email con una foto cuando detecta uno movimiento](https://www.instructables.com/Raspberry-Pi-Motion-Detector-and-Alert-System/)
@@ -9,7 +9,7 @@ Esta librería open-source está pensado para utilizar sistemas de alarma con la
 
 Pero nosotros NO nos interesa que detecte movimiento, sino que simplemente haga streaming.
 
-Para esto, simplemente modificaremos el fichero de configuración de la librería. Es muy típico modificar ficheros de configuración tipo texto en los softwares abiertos, lo que muestra su versatilidad y potencialidad.
+Para esto, simplemente modificaremos el fichero de configuración de la librería **motion.conf**. Es muy típico modificar ficheros de configuración tipo texto en los softwares abiertos, lo que muestra su versatilidad y potencialidad. Puedes ver las diferentes posibilidades de configuración de Motion [aquí](https://motion-project.github.io/motion_config.html)
 
 ## Cómo hacerlo
 
@@ -34,9 +34,9 @@ Buscamos estas líneas y las modificamos :
 
 Si estuvieran estas líneas webcam_localhost on y webcam_port 8080 las borramos, o mejor las dejamos como comentarios poniendo delante uno # así #webcam_localhost on #webcam_port 8080.
 
-En esta [página](https://raspberryparatorpes.net/instalacion/conectar-una-webcam-con-motion-en-raspberry-pi/) podemos ver otra configuración de motion.conf.
+En esta [página](https://raspberryparatorpes.net/instalacion/conectar-una-webcam-con-motion-en-raspberry-pi/) podemos ver otra configuración de motion.conf para el mismo propósito de streaming.
 
-Grabamos el fichero, pulsando Ctrl+X se sale pero preguntará si queremos grabar el fichero con el mismo nombre, le decimos que sí
+Grabamos el fichero: pulsando Ctrl+X se sale pero preguntará si queremos grabar el fichero con el mismo nombre, le decimos que sí
 
 Finalmente ejecutamos motion con esta orden
 
