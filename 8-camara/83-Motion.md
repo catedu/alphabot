@@ -25,14 +25,14 @@ Editamos el fichero de configuración motion.conf con el editor nano
 
 Buscamos estas líneas y las modificamos :
 
-* stream_localhost on lo cambiamos por:
+* stream_localhost on lo cambiamos por off [si es on sólo localhost puede abrirlo, si es off pueden todos](https://raspberrypi.stackexchange.com/questions/108419/stream-raspberry-pi-camera-on-web-page):
   * **stream_localhost off**
-* si vemos #stream_port 8081 le quitamos el hastag o sea lo dejamos así:
+* si vemos #stream_port 8081 y como queremos abrirlo por ese puerto, le quitamos el hastag, o sea lo dejamos así,:
   * **stream_port 8081**
 * Si vemos daemon off lo cambiamos por
   * **daemon on**
 
-Si estuvieran estas líneas webcam_localhost on y webcam_port 8080 las borramos, o mejor las dejamos como comentarios poniendo delante uno # así #webcam_localhost on #webcam_port 8080.
+Si estuvieran estas líneas webcam_localhost on y webcam_port 8080 las borramos, o mejor las dejamos como comentarios poniendo delante un hastag # así #webcam_localhost on #webcam_port 8080.
 
 En esta [página](https://raspberryparatorpes.net/instalacion/conectar-una-webcam-con-motion-en-raspberry-pi/) podemos ver otra configuración de motion.conf para el mismo propósito de streaming.
 
