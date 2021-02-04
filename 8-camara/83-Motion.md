@@ -84,9 +84,21 @@ Y automáticamente nos abre el navegador con la webcam funcionando
 
 (en este caso he utilizado el robot para vigilar la impresora 3D)
 
+### Vale, pero .. ¿y cómo se quita un servicio de Remoteit?
 
+Entramos en al página web en el device en cuestión
 
+![](/assets/remoteit6.jpg)
 
+Y copiamos el ID del servicio que queremos borrar:
+
+![](/assets/remoteit4.jpg)
+
+Y ejecutamos la orden **sudo remoteit remove --id y la ID que queremos borrar** es decir en mi caso :
+
+ sudo remoteit remove --id 80:00:00:00:01:0A:18:DF
+
+![](/assets/remoteit5.jpg)
 
 ### Opción cutre con VNC
 
@@ -99,5 +111,3 @@ Una vez accedido por VNC remotamente podemos abrir el navegador de la misma Rasp
 http://127.0.0.1:8081
 
 ojo en el navegador de la Raspberry no en tu ordenador.
-
->Nota: Antes Remote.it tenía el servicio HTTP y se podía utilizar tu navegador, ahora este servicio no lo ofrecen, sólo SSH y VNC por lo que no sé otro método.
