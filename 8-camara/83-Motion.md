@@ -42,7 +42,11 @@ Finalmente ejecutamos motion con esta orden
 
 **sudo motion**
 
-Con motion simplemente también valdría
+Si queremos que se ejecute de forma automática cuando arranque la raspberrypi editamos el fichero /etc/rc.local y al final le ponemos esa instrucción. Es decir
+
+sudo nano /etc/rc.local
+
+![](/assets/arranquemotion.jpg)
 
 ## ¿Cómo se ve desde la red local?
 
