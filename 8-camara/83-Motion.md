@@ -44,7 +44,8 @@ Finalmente ejecutamos motion con esta orden
 
 Si queremos que se ejecute de forma automática cuando arranque la raspberrypi editamos el fichero /etc/rc.local y al final le ponemos esa instrucción. Es decir
 
-sudo nano /etc/rc.local
+**sudo nano /etc/rc.local**
+y añadimos sudo motion al final (he puesto un comentario My script optativo)
 
 ![](/assets/arranquemotion.jpg)
 
@@ -58,7 +59,38 @@ es decir si la dirección es 192.168.1.25 entonces tecleamos http://192.168.1.25
 
 Si queremos un protocolo seguro https mirar esta [página](https://raspberrypi.stackexchange.com/questions/107868/motion-security/107872#107872)
 
-## ¿Cómo se ve desde Internet?
+## ¿Y desde Internet?
+
+### Opción instalar un nuevo servicio
+No se puede hacer gráficamente en la página Remote.it no sabemos por qué. Hay que hacerlo con comandos con SSH.
+
+**sudo remoteit add -h**
+
+Nos sale una lista de servicios que podemos añadir, tecleamos el ID del servicio que queremos añadir en este caso vemos en la figura que el 7 es HTTP.
+
+Nos pide el puerto, ponemos **8081** el mismo que en Motion
+
+Un nombre para el servicio, le hemos puesto webcam, y hecho lo que tienes que hacer en la Raspberry.
+
+![](/assets/remoteit1.jpg)
+
+Entramos ahora en un ordenador a remote.it en nuestros "Devices" y pinchamos en el servicio que hemos creado:
+
+![](/assets/remoteit2.jpg)
+
+Y automáticamente nos abre el navegador con la webcam funcionando
+
+![](/assets/remoteit3.jpg)
+
+(en este caso he utilizado el robot para vigilar la impresora 3D)
+
+
+
+
+
+### Opción cutre con VNC
+
+Si lo anterior por alguna razón fallara o remote.it quita el servicio HTTP, puedes ver la cámara por VNC.
 
 Tienes que acceder a la Raspberry desde Internet con VNC mira estos [apuntes](https://catedu.github.io/raspberry-muy-basico/11-conectando-desde-internet.html)
 
