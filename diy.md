@@ -9,7 +9,7 @@ Pero te queremos animar:
 <iframe src="https://giphy.com/embed/xjUGCnG53aCBbfokdS" width="480" height="337" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/maker-gallina-xjUGCnG53aCBbfokdS">via GIPHY</a></p>
 
 ##Nomenclatura:
-* Parte delantera: La que tiene la cámara. 
+* Parte delantera: La que tiene la cámara.
 * Parte trasera la que tiene el siguelíneas.
 
 ##El Paquete de piezas
@@ -176,11 +176,11 @@ Y lo colocamos con la otra pieza:
 
 ![](/assets/PICT0065.JPG)
 
-La palabra "chapuza" no está en el diccionario de los chinos ni tampoco tienen estos cuchillos albaceteños:
+La palabra "chapuza" es típico española, y también estos cuchillos albaceteños:
 
 ![](/assets/PICT0067.JPG)
 
-Pero los españoles estamos entrenados a resolver estas situaciones:
+Los españoles estamos entrenados a resolver situaciones chapuzas:
 
 ![](/assets/PICT0068.JPG)
 
@@ -219,7 +219,7 @@ Es un buen momento para colocar la cámara. Levantamos la pieza negra sin arranc
 Ponemos el cable con el lado azul mirando hacia la cámara como en la foto y volvemos a colocar la pieza negra:
 
  ![](/assets/colocarcamara.JPG)
- 
+
  Truco: Al encender el robot, tiene que encenderse un led rojo de la cámara. Si no es así es que has conectado la cinta mal.
 
 **CHAPUZA3** Mete la cámara a presión y verás: ¡¡ Es más grande la cámara que el soporte !!. Queda torcido, no es muy estético pero está bien sujeto:
